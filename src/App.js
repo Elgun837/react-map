@@ -1,27 +1,55 @@
-import React,{useState} from 'react';
-import { GoogleMap, LoadScript,Marker, InfoWindow} from '@react-google-maps/api';
-import { MarkerClusterer } from '@react-google-maps/api';
-
-const  App = () => {
+import React, { useState } from "react";
+import {
+  GoogleMap,
+  LoadScript,
+  MarkerF,
+  InfoWindow
+} from "@react-google-maps/api";
+import { MarkerClusterer } from "@react-google-maps/api";
+const App = () => {
   const mapContainerStyle = {
-    width: '100vw',
-    height: '100vh',
+    width: "100vw",
+    height: "100vh",
   };
 
-  const center = {
-    lat: 40, // Başlangıç konumu latitudinal koordinatı
-    lng: 40, // Başlangıç konumu longitudinal koordinatı
+  const defaultCenter = {
+    lat: 40,
+    lng: 40,
   };
+
+  const [center, setCenter] = useState(defaultCenter);
+
   const [markers, setMarkers] = useState([
-    { id: 1, position: { lat: 40, lng: 40 }, color: 'red', info: 'Marker 1 Info' },
-    { id: 2, position: { lat: 41, lng: 41 }, color: 'blue', info: 'Marker 2 Info' },
-    { id: 3, position: { lat: 40, lng: 40 }, color: 'red', info: 'Marker 1 Info' },
-    { id: 4, position: { lat: 41.00123, lng: 41 }, color: 'blue', info: 'Marker 2 Info' },
-    { id: 5, position: { lat: 40, lng: 40 }, color: 'red', info: 'Marker 1 Info' },
-    { id: 6, position: { lat: 41, lng: 41 }, color: 'blue', info: 'Marker 2 Info' },
-    { id: 7, position: { lat: 40, lng: 40 }, color: 'red', info: 'Marker 1 Info' },
-    { id: 8, position: { lat: 41, lng: 41 }, color: 'blue', info: 'Marker 2 Info' },
-    // Diğer marker'lar...
+    {
+      id: 1,
+      position: { lat: 43, lng: 40 },
+      color: "red",
+      info: "Marker 1 Info",
+    },
+    {
+      id: 2,
+      position: { lat: 41, lng: 43 },
+      color: "blue",
+      info: "Marker 2 Info",
+    },
+    {
+      id: 3,
+      position: { lat: 45.3, lng: 41.3 },
+      color: "blue",
+      info: "Marker 3 Info",
+    },
+    {
+      id: 4,
+      position: { lat: 45.5, lng: 41.5 },
+      color: "blue",
+      info: "Marker 4 Info",
+    },
+    {
+      id: 5,
+      position: { lat: 42.7, lng: 44 },
+      color: "blue",
+      info: "Marker 5 Info",
+    },
   ]);
 
   const [selectedMarker, setSelectedMarker] = useState(null);
@@ -32,52 +60,45 @@ const  App = () => {
 
   const handleInfoWindowClose = () => {
     setSelectedMarker(null);
+    setCenter((prevCenter) => prevCenter);
   };
 
   return (
-    <LoadScript
-      googleMapsApiKey="AIzaSyDX0fzqyL0YVHbo5-3cMB6u4DnSS1sYCpc"
-    >
-
+    <LoadScript googleMapsApiKey="AIzaSyAlPbyceaWa75wtjv7U4etyl0I-R2Tdmdw">
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         center={center}
         zoom={5}
         mapTypeId="satellite"
       >
-         <MarkerClusterer
-          averageCenter
-          enableRetinaIcons
-          gridSize={60}
-
-        >
+        <MarkerClusterer>
           {(clusterer) => (
             <>
-            
               {markers.map((marker) => (
-                <Marker
+                <MarkerF
                   key={marker.id}
                   position={marker.position}
                   icon={{
-                    url: `./icon.svg`,
-                    scaledSize: new window.google.maps.Size(40, 40),
+                    url: "./icon.svg",
+                    scaledSize: new window.google.maps.Size(24, 24),
                   }}
                   onClick={() => handleMarkerClick(marker)}
                   clusterer={clusterer}
                 />
-                
               ))}
-        
-              {selectedMarker && (
-                <InfoWindow 
+
+              {selectedMarker && selectedMarker.position && (
+                <InfoWindow
                   position={selectedMarker.position}
                   onCloseClick={handleInfoWindowClose}
                 >
-                  
-                  <div style={{ background: selectedMarker.color, padding: '10px' }}>
+                  <div
+                    style={{
+                      background: selectedMarker.color,
+                      padding: "0px",
+                    }}
+                  >
                     <h2>{selectedMarker.info}</h2>
-                    {/* Ek bilgileri buraya ekleyebilirsiniz */}
-                    test
                   </div>
                 </InfoWindow>
               )}
@@ -87,20 +108,6 @@ const  App = () => {
       </GoogleMap>
     </LoadScript>
   );
-
-  // return (
-  //   <LoadScript
-  //     googleMapsApiKey="AIzaSyDX0fzqyL0YVHbo5-3cMB6u4DnSS1sYCpc"
-      
-  //   >
-  //     <GoogleMap
-  //       mapContainerStyle={mapContainerStyle}
-  //       center={center}
-  //       zoom={3} // İstediğiniz varsayılan zoom seviyesi
-  //       mapTypeId="satellite" // Uydu görüntüsü
-  //     />
-  //   </LoadScript>
-  // );
 };
 
-export default App
+export default App;
