@@ -3,9 +3,13 @@ import {
   GoogleMap,
   LoadScript,
   MarkerF,
-  InfoWindow
+  InfoWindow,
 } from "@react-google-maps/api";
 import { MarkerClusterer } from "@react-google-maps/api";
+import "./App.css";
+import Overlay from "./Overlay";
+import Modal from "./Modal";
+
 const App = () => {
   const mapContainerStyle = {
     width: "100vw",
@@ -16,8 +20,9 @@ const App = () => {
     lat: 40,
     lng: 40,
   };
-
   const [center, setCenter] = useState(defaultCenter);
+  const [isOverlayVisible, setOverlayVisible] = useState(false);
+  const [selectedMarker, setSelectedMarker] = useState(null);
 
   const [markers, setMarkers] = useState([
     {
@@ -52,16 +57,16 @@ const App = () => {
     },
   ]);
 
-  const [selectedMarker, setSelectedMarker] = useState(null);
 
   const handleMarkerClick = (marker) => {
     setSelectedMarker(marker);
+    setOverlayVisible(true);
   };
-
-  const handleInfoWindowClose = () => {
+  const handleOverlayClose = () => {
     setSelectedMarker(null);
-    setCenter((prevCenter) => prevCenter);
+    setOverlayVisible(false);
   };
+ 
 
   return (
     <LoadScript googleMapsApiKey="AIzaSyAlPbyceaWa75wtjv7U4etyl0I-R2Tdmdw">
@@ -71,7 +76,7 @@ const App = () => {
         zoom={5}
         mapTypeId="satellite"
       >
-        <MarkerClusterer>
+         <MarkerClusterer>
           {(clusterer) => (
             <>
               {markers.map((marker) => (
@@ -79,7 +84,7 @@ const App = () => {
                   key={marker.id}
                   position={marker.position}
                   icon={{
-                    url: "./icon.svg",
+                    url: "./Vector.svg",
                     scaledSize: new window.google.maps.Size(24, 24),
                   }}
                   onClick={() => handleMarkerClick(marker)}
@@ -87,20 +92,13 @@ const App = () => {
                 />
               ))}
 
-              {selectedMarker && selectedMarker.position && (
-                <InfoWindow
-                  position={selectedMarker.position}
-                  onCloseClick={handleInfoWindowClose}
-                >
-                  <div
-                    style={{
-                      background: selectedMarker.color,
-                      padding: "0px",
-                    }}
-                  >
-                    <h2>{selectedMarker.info}</h2>
-                  </div>
-                </InfoWindow>
+              
+
+              {isOverlayVisible && (
+                <>
+                  <Overlay onClose={handleOverlayClose} />
+                  <Modal markerInfo={selectedMarker} onClose={handleOverlayClose} />
+                </>
               )}
             </>
           )}
