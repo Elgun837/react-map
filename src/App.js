@@ -30,6 +30,11 @@ const App = () => {
       position: { lat: 43, lng: 40 },
       color: "red",
       info: "Marker 1 Info",
+      image_1: "./images/zabux-1(1).jpeg",
+      image_2: "./images/zabux-1(2).jpeg",
+      image_3: "./images/zabux-1(3).jpeg",
+      image_4: "./images/zabux-1(4).jpeg",
+      image_5: "./images/zabux-1(5).jpeg",
     },
     {
       id: 2,
