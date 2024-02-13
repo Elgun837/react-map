@@ -1,21 +1,33 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import {
   GoogleMap,
   LoadScript,
   MarkerF,
-  InfoWindow,
 } from "@react-google-maps/api";
 import { MarkerClusterer } from "@react-google-maps/api";
 import "./App.css";
 import Overlay from "./Overlay";
 import Modal from "./Modal";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
+  const { t } = useTranslation();
   const mapContainerStyle = {
     width: "100vw",
     height: "100vh",
   };
 
+  const clusterOptions = { 
+    clusterClass: "custom-cluster-icon", 
+    styles: [{
+      textColor: 'black',
+      url: "/images/holder.svg",  // Provide the path to your custom cluster icon
+      height: 36,  // Set the desired height
+      width: 36,   // Set the desired width
+    }],
+  };
+
+  
   const defaultCenter = {
     lat: 40,
     lng: 40,
@@ -28,38 +40,26 @@ const App = () => {
     {
       id: 1,
       position: { lat: 43, lng: 40 },
-      color: "red",
-      info: "Marker 1 Info",
+      info: t("markerInfo"),
       image_1: "./images/zabux-1(1).jpeg",
       image_2: "./images/zabux-1(2).jpeg",
       image_3: "./images/zabux-1(3).jpeg",
       image_4: "./images/zabux-1(4).jpeg",
       image_5: "./images/zabux-1(5).jpeg",
+      class:   "aze"
     },
     {
       id: 2,
-      position: { lat: 41, lng: 43 },
-      color: "blue",
-      info: "Marker 2 Info",
+      position: { lat: 42.5, lng: 41 },
+      info: "Zabux su anbarından qidalanan magistral boru kəmərinin  layihələndirilməsi və tikintisi işləri",
+      image_1: "./images/zabux-1(1).jpeg",
+      image_2: "./images/zabux-1(2).jpeg",
+      image_3: "./images/zabux-1(3).jpeg",
+      image_4: "./images/zabux-1(4).jpeg",
+      image_5: "./images/zabux-1(5).jpeg",
+      class:   "bul"
     },
-    {
-      id: 3,
-      position: { lat: 45.3, lng: 41.3 },
-      color: "blue",
-      info: "Marker 3 Info",
-    },
-    {
-      id: 4,
-      position: { lat: 45.5, lng: 41.5 },
-      color: "blue",
-      info: "Marker 4 Info",
-    },
-    {
-      id: 5,
-      position: { lat: 42.7, lng: 44 },
-      color: "blue",
-      info: "Marker 5 Info",
-    },
+    
   ]);
 
 
@@ -72,8 +72,11 @@ const App = () => {
     setOverlayVisible(false);
   };
  
+ 
 
   return (
+    <>
+    <img className="logo_absolute" src={process.env.PUBLIC_URL + '/images/logo.svg'} alt="Logo" />
     <LoadScript googleMapsApiKey="AIzaSyAlPbyceaWa75wtjv7U4etyl0I-R2Tdmdw">
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
@@ -81,7 +84,7 @@ const App = () => {
         zoom={5}
         mapTypeId="satellite"
       >
-         <MarkerClusterer>
+         <MarkerClusterer options={clusterOptions}>
           {(clusterer) => (
             <>
               {markers.map((marker) => (
@@ -110,7 +113,11 @@ const App = () => {
         </MarkerClusterer>
       </GoogleMap>
     </LoadScript>
+
+    </>
   );
 };
+
+
 
 export default App;

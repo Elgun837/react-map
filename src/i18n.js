@@ -20,15 +20,14 @@ const resources = {
 
   
 i18n
-.use(LanguageDetector)
+.use(Backend)
 .use(initReactI18next)
 .init({
   fallbackLng: "en",
-  resources,
-  detection: {
-    caches: ["cookie"],
+  debug: true,
+  interpolation: {
+    escapeValue: false, // not needed for react!!
   },
-  lng,
 });
 
 export default i18n;
