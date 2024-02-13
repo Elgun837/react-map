@@ -2,8 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useTranslation } from "react-i18next";
 
 const Modal = ({ markerInfo, onClose }) => {
+  const { t } = useTranslation();
   const settings = {
     dots: false,
     infinite: true,
@@ -35,7 +37,7 @@ const Modal = ({ markerInfo, onClose }) => {
           <div className={`${markerInfo.class} right_container`}>
             <p className="main_text">{`${markerInfo.info}`}</p>
             <div className="loc_section">
-              <h3 className="location">Mekan</h3>
+              <h3 className="location">{ t("locate")}</h3>
               <p>Lacin Qubadli zengilan / Azerbaycan</p>
             </div>
             <div className="time_section">

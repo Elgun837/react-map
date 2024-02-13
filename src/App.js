@@ -11,7 +11,6 @@ import Modal from "./Modal";
 import { useTranslation } from "react-i18next";
 
 const App = () => {
-  const { t } = useTranslation();
   const mapContainerStyle = {
     width: "100vw",
     height: "100vh",
@@ -40,7 +39,7 @@ const App = () => {
     {
       id: 1,
       position: { lat: 43, lng: 40 },
-      info: t("markerInfo"),
+      info: "Zabux su anbarından qidalanan magistral boru kəmərinin  layihələndirilməsi və tikintisi işləri",
       image_1: "./images/zabux-1(1).jpeg",
       image_2: "./images/zabux-1(2).jpeg",
       image_3: "./images/zabux-1(3).jpeg",
