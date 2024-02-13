@@ -41,11 +41,11 @@ const Modal = ({ markerInfo, onClose }) => {
               <p>Lacin Qubadli zengilan / Azerbaycan</p>
             </div>
             <div className="time_section">
-              <h3 className="year">Tikilen il</h3>
+              <h3 className="year">{ t("year")}</h3>
               <p>2022 - 2023</p>
             </div>
             <div className="company">
-              <h3 className="com_name">Sifarisci Sirket</h3>
+              <h3 className="com_name">{ t("company")}</h3>
               <p>Azərbaycan Meliorasiya  və Su Təsərrüfatı ASC</p>
             </div>
           </div>

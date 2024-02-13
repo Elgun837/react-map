@@ -1,3 +1,5 @@
 {
-    "locate":"Location"
+    "locate":"Location",
+    "year":"Year of construction",
+    "company":"Customer company"
 }
