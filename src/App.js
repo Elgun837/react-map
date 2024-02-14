@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 import i18n from "./i18n";
 const App = () => {
   const { t, i18n } = useTranslation();
-
+  const [activeLanguage, setActiveLanguage] = useState(localStorage.getItem("language") || "en");
   const [markers, setMarkers] = useState([
     {
       id: 1,
@@ -20,6 +20,7 @@ const App = () => {
       image_3: "./images/zabux-1(3).jpeg",
       image_4: "./images/zabux-1(4).jpeg",
       image_5: "./images/zabux-1(5).jpeg",
+      year:"2022-2023",
       class: "aze",
     },
     {
@@ -32,6 +33,7 @@ const App = () => {
       image_3: "./images/zabux-1(3).jpeg",
       image_4: "./images/zabux-1(4).jpeg",
       image_5: "./images/zabux-1(5).jpeg",
+      year:"2021-2024",
       class: "uzb",
     },
     {
@@ -44,7 +46,9 @@ const App = () => {
       image_3: "./images/zabux-1(3).jpeg",
       image_4: "./images/zabux-1(4).jpeg",
       image_5: "./images/zabux-1(5).jpeg",
+      year:"2022-2024",
       class: "aze",
+
     },
   ]);
   
@@ -54,7 +58,6 @@ const App = () => {
         ...marker,
         info: t("project.zabux.name"),
         customer: t("project.zabux.client"),
-        // Update the other translated fields as needed
       }))
     );
   }, [t]);
@@ -97,17 +100,38 @@ const App = () => {
 
  const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    localStorage.setItem("language", lng); // Dil tercihini localStorage'e kaydet
+    setActiveLanguage(lng);
   };
 
+  useEffect(() => {
+    // Dil değiştikçe aktif dil düğmesinin arka plan rengini güncelle
+    const languageButtons = document.querySelectorAll(".language_change button");
 
+    languageButtons.forEach((button) => {
+      const buttonLanguage = button.getAttribute("data-language");
+
+      if (buttonLanguage === activeLanguage) {
+        button.style.backgroundColor = "#68A99B"
+      } else {
+        button.style.backgroundColor = ""; // Diğer düğmeleri varsayılan renge geri getirin
+      }
+    });
+  }, [activeLanguage]);
 
 
   return (
     <>
       <div className="language_change">
-        <button onClick={() => changeLanguage("en")}>EN</button>
-        <button onClick={() => changeLanguage("ru")}>RU</button>
-        <button onClick={() => changeLanguage("az")}>AZ</button>
+      <button data-language="en" onClick={() => changeLanguage("en")}>
+          EN
+        </button>
+        <button data-language="ru" onClick={() => changeLanguage("ru")}>
+          RU
+        </button>
+        <button data-language="az" onClick={() => changeLanguage("az")}>
+          AZ
+        </button>
       </div>
       <img
         className="logo_absolute"
@@ -142,6 +166,7 @@ const App = () => {
                     <Overlay onClose={handleOverlayClose} />
                     <Modal
                       markerInfo={selectedMarker}
+                     
                       onClose={handleOverlayClose}
                     />
                   </>

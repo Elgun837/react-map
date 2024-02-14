@@ -128,11 +128,19 @@ h3 {
   position: absolute;
   right: 3%;
   top: 2%;
-  z-index: 99999;
+  z-index: 1;
 }
 .language_change button{
   padding:.7rem;
   border-radius:.7rem;
   border:1px solid #AFAFAF;
   margin:.4rem
+}
+.right_container p img {
+  display: flex;
+  width:16px;
+}
+.right_container p {
+  display: flex;
+  gap:8px;
 }

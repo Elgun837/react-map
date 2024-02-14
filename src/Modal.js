@@ -38,15 +38,15 @@ const Modal = ({ markerInfo, onClose }) => {
             <p className="main_text">{`${markerInfo.info}`}</p>
             <div className="loc_section">
               <h3 className="location">{ t("locate")}</h3>
-              <p>Lacin Qubadli zengilan / Azerbaycan</p>
+              <p> <img src={process.env.PUBLIC_URL + "/icons/locate.svg"} alt="Your SVG Icon" />Lacin Qubadli zengilan / Azerbaycan</p>
             </div>
             <div className="time_section">
               <h3 className="year">{ t("year")}</h3>
-              <p>2022 - 2023</p>
+              <p><img src={process.env.PUBLIC_URL + "/icons/calendar.svg"} alt="Your SVG Icon" />{`${markerInfo.year}`}</p>
             </div>
             <div className="company">
               <h3 className="com_name">{ t("company")}</h3>
-              <p>{`${markerInfo.customer}`}</p>
+              <p><img src={process.env.PUBLIC_URL + "/icons/customer.svg"} alt="Your SVG Icon" />{`${markerInfo.customer}`}</p>
             </div>
           </div>
         </div>

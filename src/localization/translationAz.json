@@ -12,6 +12,37 @@
             "name": "Mərkəzı Asiya Regional İqtisadi Əməkdaşlıq Təşkilatı  Dəhlizi 2 Qaraqalpaqstan Yol Layihəsi (A380 Kunqrad - Daut-Ata Hissəsi) – 120 km",
             "location": "Qaraqalpaqstan/Özbəkistan",
             "client": "Özbəkistan Respublikası Dövlət Yol Komitəsi"
+        },
+        "agdam": {
+            "name": "Ağdam-Füzuli Yolunun Tikintisi (0-32 km)",
+            "location": "Ağdam, Füzuli / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi"
+        },
+        "daskesen": {
+            "name": "Daşkəsən-Kəlbəcər-Laçin Yolunun Tikintisi (1274 Km)",
+            "location": "Daşkəsən, Kəlbəcər, Laçın / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi və Azərbaycan Respublikası Müdafiə Nazirliyi"
+        },
+        "fuzuli": {
+            "name": "Füzuli Şəhərinin Daxili Yollarının və Kommunikasiya Xətlərinin Tikintisi",
+            "location": "Füzuli / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi"
+        },
+        "mutlaa": {
+            "name": "Cənubi Al Mutlaa şəhərsalma layihəsi",
+            "location": "Cənubi Al Mutlaa/ Küveyt",
+            "client": "Mənzil Təminatı üzrə Dövlət İdarəsi"
+        },
+        "salyan": {
+            "name": "M3 Ələt-Astara-Iran sərhədi magistral avtomobil yolunun Yenikənd-Biləsuvar (32-ci kilometrdən 103-cü kilometrədək) hissəsinin (mövcud yol oxu) yenidən qurulması",
+            "location": "Salyan, Biləsuvar / Azərbaycan",
+            "client":  "Azərbaycan Avtomobil Yolları Dövlət Agentliyi"
+        },
+        "baki": {
+            "name": "Knightsbridge Yaşayış Kompleksi",
+            "location": "Bakı/Azərbaycan",
+            "client": "“Paşa İnşaat” MMC"
         }
+        
 }
 }
