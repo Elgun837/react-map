@@ -8,7 +8,9 @@ import { useTranslation } from "react-i18next";
 import i18n from "./i18n";
 const App = () => {
   const { t, i18n } = useTranslation();
-  const [activeLanguage, setActiveLanguage] = useState(localStorage.getItem("language") || "en");
+  const [activeLanguage, setActiveLanguage] = useState(
+    localStorage.getItem("language") || "en"
+  );
   const [markers, setMarkers] = useState([
     {
       id: 1,
@@ -20,7 +22,7 @@ const App = () => {
       image_3: "./images/zabux-1(3).jpeg",
       image_4: "./images/zabux-1(4).jpeg",
       image_5: "./images/zabux-1(5).jpeg",
-      year:"2022-2023",
+      year: "2022-2023",
       class: "aze",
     },
     {
@@ -33,7 +35,7 @@ const App = () => {
       image_3: "./images/zabux-1(3).jpeg",
       image_4: "./images/zabux-1(4).jpeg",
       image_5: "./images/zabux-1(5).jpeg",
-      year:"2021-2024",
+      year: "2021-2024",
       class: "uzb",
     },
     {
@@ -46,12 +48,11 @@ const App = () => {
       image_3: "./images/zabux-1(3).jpeg",
       image_4: "./images/zabux-1(4).jpeg",
       image_5: "./images/zabux-1(5).jpeg",
-      year:"2022-2024",
+      year: "2022-2024",
       class: "aze",
-
     },
   ]);
-  
+
   useEffect(() => {
     setMarkers((prevMarkers) =>
       prevMarkers.map((marker) => ({
@@ -98,7 +99,7 @@ const App = () => {
   const [isOverlayVisible, setOverlayVisible] = useState(false);
   const [selectedMarker, setSelectedMarker] = useState(null);
 
- const changeLanguage = (lng) => {
+  const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     localStorage.setItem("language", lng); // Dil tercihini localStorage'e kaydet
     setActiveLanguage(lng);
@@ -106,24 +107,25 @@ const App = () => {
 
   useEffect(() => {
     // Dil değiştikçe aktif dil düğmesinin arka plan rengini güncelle
-    const languageButtons = document.querySelectorAll(".language_change button");
+    const languageButtons = document.querySelectorAll(
+      ".language_change button"
+    );
 
     languageButtons.forEach((button) => {
       const buttonLanguage = button.getAttribute("data-language");
 
       if (buttonLanguage === activeLanguage) {
-        button.style.backgroundColor = "#68A99B"
+        button.style.backgroundColor = "#68A99B";
       } else {
         button.style.backgroundColor = ""; // Diğer düğmeleri varsayılan renge geri getirin
       }
     });
   }, [activeLanguage]);
 
-
   return (
     <>
       <div className="language_change">
-      <button data-language="en" onClick={() => changeLanguage("en")}>
+        <button data-language="en" onClick={() => changeLanguage("en")}>
           EN
         </button>
         <button data-language="ru" onClick={() => changeLanguage("ru")}>
@@ -166,7 +168,6 @@ const App = () => {
                     <Overlay onClose={handleOverlayClose} />
                     <Modal
                       markerInfo={selectedMarker}
-                     
                       onClose={handleOverlayClose}
                     />
                   </>
