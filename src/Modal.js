@@ -20,17 +20,11 @@ const Modal = ({ markerInfo, onClose }) => {
           <div className="left_container">
             <div className="f-height">
               <Slider {...settings}>
-                <div>
-                  <img src={`${markerInfo.image_1}`} />
-                </div>
-
-                <div>
-                  <img src={`${markerInfo.image_2}`} />
-                </div>
-
-                <div>
-                  <img src={`${markerInfo.image_3}`} />
-                </div>
+              {markerInfo.images.map((image, index) => (
+                  <div key={index}>
+                    <img src={image} alt={`Project Image ${index + 1}`} />
+                  </div>
+                ))}
               </Slider>
             </div>
           </div>
@@ -38,7 +32,7 @@ const Modal = ({ markerInfo, onClose }) => {
             <p className="main_text">{`${markerInfo.info}`}</p>
             <div className="loc_section">
               <h3 className="location">{ t("locate")}</h3>
-              <p> <img src={process.env.PUBLIC_URL + "/icons/locate.svg"} alt="Your SVG Icon" />Lacin Qubadli zengilan / Azerbaycan</p>
+              <p> <img src={process.env.PUBLIC_URL + "/icons/locate.svg"} alt="Your SVG Icon" />{`${markerInfo.locate}`}</p>
             </div>
             <div className="time_section">
               <h3 className="year">{ t("year")}</h3>
