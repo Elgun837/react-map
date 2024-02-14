@@ -1,5 +1,17 @@
 {
-    "locate":"Məkan",
-    "year":"Tikilən il",
-    "company":"Sifarişçi şirkət"
+    "locate": "Məkan",
+    "year": "Tikilən il",
+    "company": "Sifarişçi şirkət",
+    "project": {
+        "zabux": {
+            "name": "Zabux su anbarından qidalanan magistral boru kəmərinin layihələndirilməsi və tikintisi işləri",
+            "location": "Laçın, Qubadlı, Zəngilan / Azərbaycan",
+            "client": "Azərbaycan Meliorasiya və Su Təsərrüfatı ASC"
+        },
+        "uzekistan": {
+            "name": "Mərkəzı Asiya Regional İqtisadi Əməkdaşlıq Təşkilatı  Dəhlizi 2 Qaraqalpaqstan Yol Layihəsi (A380 Kunqrad - Daut-Ata Hissəsi) – 120 km",
+            "location": "Qaraqalpaqstan/Özbəkistan",
+            "client": "Özbəkistan Respublikası Dövlət Yol Komitəsi"
+        }
+}
 }

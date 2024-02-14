@@ -46,7 +46,7 @@ const Modal = ({ markerInfo, onClose }) => {
             </div>
             <div className="company">
               <h3 className="com_name">{ t("company")}</h3>
-              <p>Azərbaycan Meliorasiya  və Su Təsərrüfatı ASC</p>
+              <p>{`${markerInfo.customer}`}</p>
             </div>
           </div>
         </div>

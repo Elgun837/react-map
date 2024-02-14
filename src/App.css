@@ -90,10 +90,14 @@ button.popup_close {
 .aze{
   background:#B3568C;
 }
-.bul{
+.uzb{
   background: #68A99B;
-;
-;
+}
+.montenegro{
+  background: #D45743;
+}
+.kuveyt{
+  background: #B3568C;
 }
 .right_container {
   background-image: url("/public/images/n.svg");
@@ -119,4 +123,16 @@ h3 {
   margin: 0;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
+}
+.language_change {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  z-index: 99999;
+}
+.language_change button{
+  padding:.7rem;
+  border-radius:.7rem;
+  border:1px solid #AFAFAF;
+  margin:.4rem
 }

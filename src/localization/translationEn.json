@@ -1,5 +1,17 @@
 {
     "locate":"Location",
     "year":"Year of construction",
-    "company":"Customer company"
+    "company":"Customer company",
+    "project": {
+        "zabux": {
+            "name": "Design and construction work of the main pipeline taking its source from the Zabukh reservoir",
+            "location": "Laçın, Qubadlı, Zəngilan / Azərbaycan",
+            "client": "Azerbaijan Amelioration and Water Farm OJSC"
+        },
+        "uzekistan": {
+            "name": "Mərkəzı Asiya Regional İqtisadi Əməkdaşlıq Təşkilatı  Dəhlizi 2 Qaraqalpaqstan Yol Layihəsi (A380 Kunqrad - Daut-Ata Hissəsi) – 120 km",
+            "location": "Qaraqalpaqstan/Özbəkistan",
+            "client": "Özbəkistan Respublikası Dövlət Yol Komitəsi"
+        }
+}
 }
