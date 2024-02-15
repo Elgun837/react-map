@@ -114,8 +114,8 @@ button.gm-control-active.gm-fullscreen-control,
 }
 .logo_absolute {
   position: absolute;
-  right: 30px;
-  bottom: 30px;
+  right: 2%;
+  bottom: 2%;
   z-index: 99;
 }
 
@@ -126,14 +126,14 @@ h3 {
 }
 .language_change {
   position: absolute;
-  right: 3%;
+  right: 2%;
   top: 2%;
   z-index: 1;
 }
 .language_change button{
   padding:.7rem;
   border-radius:.7rem;
-  border:1px solid #AFAFAF;
+  border:2px solid #FFF;
   margin:.4rem
 }
 .right_container p img {
@@ -143,4 +143,52 @@ h3 {
 .right_container p {
   display: flex;
   gap:8px;
+}
+
+@media (min-width:6200px){
+  .language_change button{
+    padding:1.5rem;
+    border-radius:1.5rem;
+    border:.5rem solid #FFF;
+    margin: 0.8rem;
+    font-size: 75px;
+  }
+  .logo_absolute{
+    width: 30rem;
+  }
+  h3{
+    font-size: 60px;
+  }
+  p{
+    font-size: 64px;
+  }
+  .right_container p img{
+    width: 64px;
+    height: 64px;
+  }
+  .right_container p{
+    align-items: center;
+    gap: 40px;
+  }
+  .right_container{
+    padding: 108px;
+  }
+  button.popup_close{
+    font-size: 60px;
+    padding: 10px;
+    width: 80px;
+  }
+  .slick-prev:before, .slick-next:before{
+    font-size: 50px!important;
+  }
+  .slick-next {
+    right: 100px !important;
+  }
+  .slick-prev {
+    left: 30px!important;
+    z-index: 9;
+  }
+  .custom-cluster-icon div{
+    font-size: 55px!important;
+  }
 }
