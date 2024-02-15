@@ -937,8 +937,8 @@ const App = () => {
       {
         textColor: "black",
         url: "/images/holder.svg", // Provide the path to your custom cluster icon
-        height: 100, // Set the desired height
-        width: 100, // Set the desired width
+        height: window.innerWidth < 2000 ? 24 : 100, // Set the desired height
+        width: window.innerWidth < 2000 ? 24 : 100,
       },
     ],
   };
@@ -1018,7 +1018,10 @@ const App = () => {
                     position={marker.position}
                     icon={{
                       url: "./Vector.svg",
-                      scaledSize: new window.google.maps.Size(100, 100),
+                      scaledSize: new window.google.maps.Size(
+                        window.innerWidth < 2000 ? 24 : 100, // Set the desired height
+                        window.innerWidth < 2000 ? 24 : 100  // Set the desired width
+                      ),
                     }}
                     onClick={() => handleMarkerClick(marker)}
                     clusterer={clusterer}
