@@ -809,7 +809,7 @@ const App = () => {
     },
     {
       id: 42,
-      position: { lat: 40.3880867, lng: 49.874147 },
+      position: { lat: 40.3880057, lng: 49.8748522 },
       info: t("project.42.name"),
       locate: t("project.42.location"),
       customer: t("project.42.client"),
