@@ -604,7 +604,7 @@ const App = () => {
     },
     {
       id: 30,
-      position: { lat: 40.3943146, lng: 49.7888688 },
+      position: { lat: 40.4009247, lng: 49.8096827 },
       info: t("project.30.name"),
       locate: t("project.30.location"),
       customer: t("project.30.client"),
