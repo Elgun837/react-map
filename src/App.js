@@ -1006,10 +1006,6 @@ const App = () => {
         <GoogleMap
           mapContainerStyle={mapContainerStyle}
           center={center}
-          options={{
-            minZoom: 3, // Set the minimum zoom level
-            mapTypeId:"satellite"
-          }}
           zoom={7}
           mapTypeId="satellite"
         >
