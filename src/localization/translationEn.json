@@ -1,7 +1,7 @@
 {
     "locate": "Location",
     "year": "Year of construction",
-    "company": "Customer company",
+    "company": "Client",
     "project": {
         "1": {
             "name": "Design and construction work of the main pipeline taking its source from the Zabukh reservoir",
