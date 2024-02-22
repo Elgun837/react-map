@@ -14,7 +14,7 @@ const App = () => {
   const [markers, setMarkers] = useState([
     {
       id: 1,
-      position: { lat: 39.3554202, lng: 46.6780096 },
+      position: { lat: 39.35541812603985, lng: 46.68115583115065 },
       info: t("project.1.name"),
       locate: t("project.1.location"),
       customer: t("project.1.client"),
@@ -30,7 +30,7 @@ const App = () => {
     },
     {
       id: 2,
-      position: { lat: 43.79235, lng: 57.780494 },
+      position: { lat: 43.79250876486757, lng: 57.78046449572585 },
       info: t("project.2.name"),
       locate: t("project.2.location"),
       customer: t("project.2.client"),
@@ -47,7 +47,7 @@ const App = () => {
     },
     {
       id: 3,
-      position: { lat: 39.645274, lng: 47.166514 },
+      position: { lat: 39.645464009722275, lng: 47.16649254232744 },
       info: t("project.3.name"),
       locate: t("project.3.location"),
       customer: t("project.3.client"),
@@ -61,8 +61,8 @@ const App = () => {
       class: "aze",
     },
     {
-      id: 4,
-      position: { lat: 39.641163, lng: 46.4614872 },
+      id: 4, 
+      position: { lat: 39.645629237795184, lng: 47.16648182069096 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
       customer: t("project.4.client"),
@@ -80,8 +80,8 @@ const App = () => {
       class: "aze",
     },
     {
-      id: 4,
-      position: { lat: 39.986812, lng: 45.797001 },
+      id: 4, 
+      position: { lat: 39.98695174584499, lng: 45.79696344907655 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
       customer: t("project.4.client"),
@@ -99,8 +99,8 @@ const App = () => {
       class: "aze",
     },
     {
-      id: 4,
-      position: { lat: 40.232287, lng: 46.169059 },
+      id: 4, 
+      position: { lat: 40.23263101014626, lng: 46.16896780490018 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
       customer: t("project.4.client"),
@@ -117,9 +117,9 @@ const App = () => {
       year: "2021-2024",
       class: "aze",
     },
-    {
+    { 
       id: 5,
-      position: { lat: 39.603801, lng: 47.146725 },
+      position: { lat: 39.60396632493062, lng: 47.14671963558235 },
       info: t("project.5.name"),
       locate: t("project.5.location"),
       customer: t("project.5.client"),
@@ -809,7 +809,7 @@ const App = () => {
     },
     {
       id: 42,
-      position: { lat: 40.3880057, lng: 49.8748522 },
+      position: { lat: 40.38807712302191, lng: 49.875458363823775 },
       info: t("project.42.name"),
       locate: t("project.42.location"),
       customer: t("project.42.client"),
