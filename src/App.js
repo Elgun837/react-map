@@ -164,8 +164,8 @@ const App = () => {
       class: "aze",
     },
     {
-      id: 8,
-      position: { lat: 40.3783952, lng: 49.8907021 },
+      id: 8, 
+      position: { lat: 40.37898598659498, lng: 49.89259235092345 },
       info: t("project.8.name"),
       locate: t("project.8.location"),
       customer: t("project.8.client"),
@@ -179,8 +179,8 @@ const App = () => {
       class: "aze",
     },
     {
-      id: 9,
-      position: { lat: 40.6770483, lng: 46.3594762 },
+      id: 9, 
+      position: { lat: 40.67714695742388, lng: 46.35947955276103 },
       info: t("project.9.name"),
       locate: t("project.9.location"),
       customer: t("project.9.client"),
@@ -195,7 +195,7 @@ const App = () => {
     },
     {
       id: 10,
-      position: { lat: 40.3895675, lng: 49.8625503 },
+      position: { lat: 40.389036338349406, lng: 49.864862364001084 },
       info: t("project.10.name"),
       locate: t("project.10.location"),
       customer: t("project.10.client"),
@@ -211,8 +211,8 @@ const App = () => {
       class: "aze",
     },
     {
-      id: 11,
-      position: { lat: 40.3752158, lng: 49.8595349 },
+      id: 11, 
+      position: { lat: 40.376470414365556, lng: 49.860023064417646 },
       info: t("project.11.name"),
       locate: t("project.11.location"),
       customer: t("project.11.client"),
@@ -227,9 +227,9 @@ const App = () => {
       year: "2011-2015",
       class: "aze",
     },
-    {
+    { 
       id: 12,
-      position: { lat: 39.5751946, lng: 48.9564442 },
+      position: { lat: 39.558785632940626, lng: 48.95781749091479 },
       info: t("project.12.name"),
       locate: t("project.12.location"),
       customer: t("project.12.client"),
@@ -241,9 +241,9 @@ const App = () => {
       year: "2021-2025",
       class: "aze",
     },
-    {
+    { 
       id: 13,
-      position: { lat: 40.3755291, lng: 49.8609641 },
+      position: { lat: 40.37556931371039, lng: 49.86176592024127 },
       info: t("project.13.name"),
       locate: t("project.13.location"),
       customer: t("project.13.client"),
@@ -256,9 +256,9 @@ const App = () => {
       year: "2012-2014",
       class: "aze",
     },
-    {
+    { 
       id: 14,
-      position: { lat: 41.6319113, lng: 48.6847836 },
+      position: { lat: 41.63259893027135, lng: 48.68695888045524 },
       info: t("project.14.name"),
       locate: t("project.14.location"),
       customer: t("project.14.client"),
