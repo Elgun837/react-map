@@ -308,9 +308,9 @@ const App = () => {
       year: "2021-2026",
       class: "aze",
     },
-    {
+    { 
       id: 17,
-      position: { lat: 41.1102692, lng: 45.3846943 },
+      position: { lat: 40.56970064779442, lng: 45.82760563628342 },
       info: t("project.17.name"),
       locate: t("project.17.location"),
       customer: t("project.17.client"),
@@ -334,9 +334,9 @@ const App = () => {
       year: "2019-2021",
       class: "aze",
     },
-    {
+    { 
       id: 17,
-      position: { lat: 40.7706621, lng: 45.827611 },
+      position: { lat: 41.11178983518362, lng: 45.384452093252904 },
       info: t("project.17.name"),
       locate: t("project.17.location"),
       customer: t("project.17.client"),
@@ -360,9 +360,9 @@ const App = () => {
       year: "2019-2021",
       class: "aze",
     },
-    {
+    { 
       id: 17,
-      position: { lat: 40.345996, lng: 46.963391 },
+      position: { lat: 40.34609412356789, lng: 46.963374906747084 },
       info: t("project.17.name"),
       locate: t("project.17.location"),
       customer: t("project.17.client"),
