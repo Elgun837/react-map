@@ -603,8 +603,8 @@ const App = () => {
       class: "aze",
     },
     {
-      id: 30,
-      position: { lat: 40.4009247, lng: 49.8096827 },
+      id: 30, 
+      position: { lat: 40.40159637756139, lng: 49.81081524480906 },
       info: t("project.30.name"),
       locate: t("project.30.location"),
       customer: t("project.30.client"),
