@@ -42,6 +42,10 @@ const Modal = ({ markerInfo, onClose }) => {
               <h3 className="com_name">{ t("company")}</h3>
               <p><img src={process.env.PUBLIC_URL + "/icons/customer.svg"} alt="Your SVG Icon" />{`${markerInfo.customer}`}</p>
             </div>
+            <div className="works">
+              <h3 className="com_name">{ t("works")}</h3>
+              <p><img src={process.env.PUBLIC_URL + "/icons/customer.svg"} alt="Your SVG Icon" />{`${markerInfo.scope}`}</p>
+            </div>
           </div>
         </div>
         <button className="popup_close" onClick={onClose}>

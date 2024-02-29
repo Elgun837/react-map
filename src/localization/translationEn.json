@@ -2,242 +2,289 @@
     "locate": "Location",
     "year": "Year of construction",
     "company": "Client",
+    "works": "Scope of works",
     "project": {
         "1": {
             "name": "Design and construction work of the main pipeline taking its source from the Zabukh reservoir",
             "location": "Lachin, Gubadli, Zangilan/Azerbaijan",
-            "client": "“Azerbaijan Amelioration and Water Farm” OJSC"
+            "client": "“Azerbaijan Amelioration and Water Farm” OJSC",
+            "scope": "The 51.6 km long steel pipeline (DN1620-DN1920) and parallel service road have been completed. The main pipeline consists of 3,817 insulated welded joints. Ultrasonic testing of pipes was carried out by TUV AUSTRIA. The project envisages irrigation of 12,100 ha of agricultural land in Gubadli and Zangilan districts."
         },
         "2": {
             "name": "Central Asia Regional Economic Cooperation (CAREC) Corridor 2 Karakalpakstan Road Project (A380 Kungrad - Daut-Ata Section) – 120 km",
             "location": "Karakalpakstan / Uzbekistan",
-            "client": "State Road Committee of the Republic of Uzbekistan"
+            "client": "State Road Committee of the Republic of Uzbekistan",
+            "scope": "We are the general contractor for the construction of a 120 km long II category concrete road in the Republic of Uzbekistan. This road, with the international code A380, connects to neighboring Kazakhstan by passing through the territory of the Autonomous Republic of Karakalpakstan and is a transport corridor of international strategic importance. The project is part of the 'CAREC 2' Program financed by the Asian Development Bank."
         },
         "3": {
             "name": "Construction of Aghdam-Fuzuli Highway (0-32 km)",
             "location": "Agdam / Fuzuli / Azerbaijan",
-            "client": "State Agency of Azerbaijan for Roads"
+            "client": "State Agency of Azerbaijan for Roads",
+            "scope": "The project involves the construction of a 32.4 km long, 1st category 4-lane road that will pass through the territory of Agdam and Fuzuli regions. Construction works include excavation of the mountain slope and filling of relevant materials, bridges, concrete pipes, asphalt works."
         },
         "4": {
             "name": "Construction of Dashkasan-Kalbajar-Lachin Road (1274 Km)",
             "location": "Dashkasan, Kalbajar, Lachin / Azerbaijan",
-            "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan"
+            "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan",
+            "scope": ""
         },
         "5": {
             "name": "Construction of Internal Roads and Communication lines of Fuzuli city",
             "location": "Fuzuli / Azerbaijan",
-            "client": "State Agency of Azerbaijan for Roads"
+            "client": "State Agency of Azerbaijan for Roads",
+            "scope": "This project includes the construction of 18.5 km long internal roads in the city of Fuzuli. Within the framework of the project, 3,360 m of rainwater lines and 69 wells, 5,567 m of drinking water lines and 11 hydrants, 19,431 m of communication lines and 37 wells have been completed."
         },
         "6": {
             "name": "South Al Mutlaa Housing Projects",
             "location": "South Al Mutlaa / Kuwaitt",
-            "client": "State Department for Housing"
+            "client": "State Department for Housing",
+            "scope": "Within the framework of this project, 49.5 km (DN200-DN600) sewage line, 52.7 km (DN200-DN1400) rainwater network and 30.1 km (DN100-DN300) water supply line were installed. The project also includes the laying of 25.8 km of lighting pipes and 1.4 km of power lines."
         },
         "7": {
             "name": "Rehabilitation of the M3 Alat-Astara-State Border of Iran Highway Between Yeni-kend and Bilasuvar (Original Alignment) km 32 to km 103",
             "location": "Salyan, Bilasuvar / Azerbaijan",
-            "client": "State Agency of Azerbaijan for Roads"
+            "client": "State Agency of Azerbaijan for Roads",
+            "scope": "The project includes rehabilitation of 71 km long 2-lane road, construction of 6 bridges and other related road components. The project is financed by the World Bank and executed on the basis of the 'FIDIC' contract standard."
         },
         "8": {
             "name": "Knightsbridge Residential Complex",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Reinforced concrete works, interior finishing and facade works were carried out in the premium type residential complex with a total construction area of more than 55,000 m2."
         },
         "9": {
             "name": "“Ganja Mall” Shopping Center",
             "location": "Ganja / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "'Ganja Mall' located in the city of Ganja is the first trade and entertainment center built in the western region of Azerbaijan. The construction of the trade center with a total area of 54,000 m2 was completed by North West Construction on the basis of a turnkey contract."
         },
         "10": {
             "name": "Ritz Carlton Hotel",
             "location": "Baku / Azerbaijan",
-            "client": "“Baku-XXI Century” LLC"
+            "client": "“Baku-XXI Century” LLC",
+            "scope": "Interior design and engineering, façade, repair-completion and scaffolding works have been completed in the building with a total construction area of more than 90,000 m2."
         },
         "11": {
             "name": "Port Baku Residence",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Our company performed fit-out and completion, installation and production of furniture and doors in a residential complex consisting of 3 residential buildings and 800 apartments. "
         },
         "12": {
             "name": "Reconstruction of water supply and sewerage system of Salyan",
             "location": "Salyan / Azərbaijan",
-            "client": "“Azersu” OJSC"
+            "client": "“Azersu” OJSC",
+            "scope": "The construction of sewage lines with a length of more than 80 km (DN200-DN800) is planned in the city of Salyan. More than 46 km long drinking water lines (DN90-DN280) have been built. Also, construction of 8 km long microtunnel lines and construction of pumping stations of different capacities on 9 collector lines are planned. The total number of house connections on sewage lines is 5050 units. Construction works are ongoing."
         },
         "13": {
             "name": "Port Baku South Tower",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": ""
         },
         "14": {
             "name": "Khudat Multifunctional Agrocomplex",
             "location": "Khudat / Azerbaijan",
-            "client": "“Foodcity Agropark” LLC"
+            "client": "“Foodcity Agropark” LLC",
+            "scope": "The agro complex with a construction area of 30,363 m2 and a landscape area of 100,000 m2 was completed under a turnkey contract."
         },
         "15": {
             "name": "Construction works of Ceyranbatan- Absheron-Balakhani-Ramana-Zira-Pirallahi main water pipeline and central reservoirs located along that pipeline",
             "location": "Absheron / Azerbaijan",
-            "client": "“Azersu” OJSC"
+            "client": "“Azersu” OJSC",
+            "scope": "The project includes the construction of a 10.4 km long main line (DN1620 mm) and 4 reservoirs of 10,000 m³ each in the Balakhani storage complex. The installation of metal pipes DN630 - DN2220 in control distribution rooms is 900 m."
         },
         "16": {
             "name": "Reconstruction of water supply and sewerage system of Mingachevir",
             "location": "Mingachevir / Azerbaijan",
-            "client": "“Azersu” OJSC"
+            "client": "“Azersu” OJSC",
+            "scope": "More than 90 km long sewage lines (DN200-DN1000) have been renewed in the city of Mingachevir, and a pumping station with a capacity of 360 l/second has been built on one collector line. Also, construction of 1,650 m microtunnel lines is planned. The total number of house connections on sewage lines is 7,000 units. Construction works are ongoing."
         },
         "17": {
             "name": "Design and Construction of Waste Water Treatment Plants in Gadabay, Qazakh, Terter",
             "location": "Gadabay, Tartar, Gazakh / Azerbaijan",
-            "client": "“Azersu” OJSC"
+            "client": "“Azersu” OJSC",
+            "scope": ""
         },
         "18": {
             "name": "Bravo Hypermarket Ahmadli",
             "location": "Baku / Azerbaijan",
-            "client": "“Azerbaijan Supermarket” LLC"
+            "client": "“Azerbaijan Supermarket” LLC",
+            "scope": "The construction of the Hypermarket with a construction area of 11,000 m2 and a landscape area of 20,000 m2 has been completed on the basis of a turnkey contract."
         },
         "19": {
             "name": "Port Baku Garden Walk Way",
             "location": "Baku / Azerbaijan",
-            "client": "“Korpu” LLC"
+            "client": "“Korpu” LLC",
+            "scope": "Reinforced concrete, insulation, electrical, mechanical, facade, landscape and fit-out works of common areas of the building with a construction area of 7,500 m2 and a total floor area of 20,000 m2 have been completed."
         },
         "20": {
             "name": "Dəniz Mall Shopping Center",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "The marble floor, doors and interior finishing works of the 7-storey shopping center designed by Chapman Taylor design company with a total construction area of more than 43,000 m2 have been completed by our company."
         },
         "21": {
             "name": "Bravo Lokbatan Distribution Center",
             "location": "Qaradagh / Azerbaijan",
-            "client": "“Azerbaijan Supermarket” LLC"
+            "client": "“Azerbaijan Supermarket” LLC",
+            "scope": "Construction of the distribution center was completed on a turnkey basis contract.  The center has a total area of 17,000 m2 with a capacity of 34,512 pallets.  In the 2nd phase of the project, the area of the center was increased by 14,690 m2."
         },
         "22": {
             "name": "Bravo  Koroghlu Hypermarket",
             "location": "Baku / Azerbaijan",
-            "client": "“Azerbaijan Supermarket” LLC"
+            "client": "“Azerbaijan Supermarket” LLC",
+            "scope": "30,737 m2 reinforced concrete construction and facade works, as well as mechanical and electrical works have been completed. The market area is 8,869 m2, the administration building is 13,566 m2, the internal parking area is 4,151 m2, and the landscape area is 15,250 m2."
         },
         "23": {
             "name": "Port Baku North Tower",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "The foundation works and reinforced concrete works of the business center with a total area of 46,600 m2 and 31 floors of office space have been completed."
         },
         "24": {
             "name": "Sumgait Tobacco Factory",
             "location": "Sumgait / Azerbaijan",
-            "client": "“Tabaterra” CJSC"
+            "client": "“Tabaterra” CJSC",
+            "scope": "The construction of the factory with a total construction area of 71,000 m2 was completed on a turnkey basis."
         },
         "25": {
             "name": "One & Only Resort Portonovi",
             "location": "Portonovi / Montonegro",
-            "client": "“Azmont Investment” LLC"
+            "client": "“Azmont Investment” LLC",
+            "scope": "The fit-out and furnishing of the 140-room 5-star One & Only Portonovi (Monteneqro) hotel has been completed."
         },
         "26": {
             "name": "Hotel Baku Marriott Boulevard",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "The fit-out and furniture works of the 818-room hotel have been completed."
         },
         "27": {
             "name": "Courtyard by Marriot Hotel",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Within the framework of the project, interior repair-completion and furniture works of the hotel were carried out."
         },
         "28": {
             "name": "İntourist Hotel",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "The repair and furnishing of the hotel, which reflects 80 years of architectural heritage and consists of 150 spacious and luxurious rooms, has been completed."
         },
-        
         "29": {
             "name": "Pik Palace Shahdag Hotel",
             "location": "Gusar / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "The fit-out works have been carried out in the hotel consisting of 167 spacious and luxurious rooms."
         },
         "30": {
             "name": "Bravo 20 January Hypermarket",
             "location": "Baku / Azerbaijan",
-            "client": "“Azerbaijan Supermarket” LLC"
+            "client": "“Azerbaijan Supermarket” LLC",
+            "scope": "20,313  m2reinforced concrete construction and facade works, as well as mechanical and electrical works have been completed. Market area is 13,772  m2, internal parking area is 6,441  m2, landscape area is 5,850  m2."
         },
         "31": {
             "name": "Ganjlik Mall Shopping Center",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "The repair and furnishing works of the shopping center with a total area of 50,000 m2 have been completed"
         },
         "32": {
             "name": "Hajigabul Pharm Base ",
             "location": "Hajigabul / Azerbaijan",
-            "client": "“Agro Dairy” LLC"
+            "client": "“Agro Dairy” LLC",
+            "scope": "Reinforcement concrete, basement, mechanical, electrical and plumbering works, construction of office building, warehouse, fertilizer building, fuel station, and dormitory building, all landscape and fit out works have been carried out."
         },
         "33": {
             "name": "28 Mall Shopping Center",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Fit-out, furniture supply works have been carried out"
         },
         "34": {
             "name": "R-Pharm medical factory",
             "location": "Baku / Azerbaijan",
-            "client": "“R-Pharm” LLC"
+            "client": "“R-Pharm” LLC",
+            "scope": "The construction of the plant with a total landscape area of 20,000 m2 and settlement area of 4,400 m2 has been completed on a turnkey basis."
         },
         "35": {
             "name": "Amburan Shopping Mall",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Reinforcement-concrete and repair-completion works were carried out in the construction of the shopping center"
         },
         "36": {
             "name": "Tovuz irrigation pipeline project",
             "location": "Baku / Azerbaijan",
-            "client": "“Agro Dairy” LLC"
+            "client": "“Agro Dairy” LLC",
+            "scope": "A 31.1 km (DN800-DN1700) steel pipe line and a 122.1 km (DN200-DN500) polyethylene pipe (HDPE) line have been laid for the purpose of irrigating agricultural fields in Tovuz region. A total of 105 central pivot irrigation systems were built.  Within the framework of the project, the construction of internal roads was also carried out by us."
         },
         "37": {
             "name": "Shahdag Hotel, Villas, Staff Accomodation",
             "location": "Qusar / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Repair and completion works were carried out within the project."
         },
         "38": {
             "name": "Dinamo Hotel",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Mechanical, electrical and plumbing works have been completed within the project"
         },
         "39": {
             "name": "Aquatic Center Parkland",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "The project was executed by our company on the basis of a turnkey contract."
         },
         "40": {
             "name": "Reconstruction of water supply and sewerage system of Qakh",
             "location": "Baku / Azerbaijan",
-            "client": "“Azersu” OJSC"
+            "client": "“Azersu” OJSC",
+            "scope": "The construction of a 2,000 m3/day wastewater treatment facility has been completed. Biologically treated wastewater is passed through a UV-disinfection device and neutralized before being released into nature."
         },
         "41": {
             "name": "Tovuz Road Construction",
             "location": "Tovuz / Azerbaijan",
-            "client": "“Agro Dairy” LLC"
+            "client": "“Agro Dairy” LLC",
+            "scope": ""
         },
         "42": {
             "name": "Volkswagen Center Baku",
             "location": "Baku / Azerbaijan",
-            "client": "Volkswagen Bakı"
+            "client": "Volkswagen Bakı",
+            "scope": "The construction of the Volkswagen sales center with an area of 3,021 m2 has been completed on the basis of a turnkey contract."
         },
         "43": {
             "name": "Atelier Boutique and Vivanda",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Within the framework of the project, repair and completion, furniture supply works were carried out."
         },
         "44": {
             "name": "Hard Rock Café",
             "location": "Baku / Azerbaijan",
-            "client": "“Pasha Construction” LLC"
+            "client": "“Pasha Construction” LLC",
+            "scope": "Within the framework of the project, repair and completion, furniture supply works were carried out."
         },
         "45": {
             "name": "Hajigabul Pump Station",
             "location": "Hajigabul / Azerbaijan",
-            "client": "“Agro Dairy” ASC"
+            "client": "“Agro Dairy” ASC",
+            "scope": "The project included the construction of a pump station building with an area of 4,500 m2."
         },
         "46": {
             "name": "Bravo Supermarket Chain",
             "location": "Baku / Azerbaijan",
-            "client": "“Azerbaijan Supermarket” LLC"
+            "client": "“Azerbaijan Supermarket” LLC",
+            "scope": "11 supermarkets and more than 50 express markets have been built and handed over"
         },
         "47": {
             "name": "McDonald’s Chain",
             "location": "Baku / Azerbaijan",
-            "client": "McDonald's Azerbaijan"
+            "client": "McDonald's Azerbaijan",
+            "scope": "Within the project,  all construction works including internal finishing, mechanical, electrical works, facade works in 16 McDonalds Azerbaijan branches such as Ganjlik Mall, Ahmedli, Ganja Mall, 28 Mall, Targovi, Sahil, Velotrek, Oazis, Airport, Park Bulvar, Rose Garden, Amburan Mall, Deniz Mall, Sumgayit, Park Bulvar, Memar Ajami have been carried out."
         }
     }
 }

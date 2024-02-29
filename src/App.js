@@ -27,6 +27,7 @@ const App = () => {
       ],
       year: "2022-2023",
       class: "aze",
+      scope: t("project.1.scope"),
     },
     {
       id: 2,
@@ -784,9 +785,9 @@ const App = () => {
       locate: t("project.40.location"),
       customer: t("project.40.client"),
       images: [
-        "./images/projects/qax/qax(1).webp",
-        "./images/projects/qax/qax(2).webp",
-        "./images/projects/qax/qax(3).webp",
+        "./images/projects/Qax/qax(1).webp",
+        "./images/projects/Qax/qax(2).webp",
+        "./images/projects/Qax/qax(3).webp",
       ],
       year: "2021-2024",
       class: "aze",
