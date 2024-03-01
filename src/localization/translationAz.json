@@ -1,8 +1,8 @@
 {
-    "locate": "Məkan",
-    "year": "Tikilən il",
-    "company": "Sifarişçi şirkət",
-    "works": "Scope of works",
+    "locate": "Yerləşməsi",
+    "year": "Tikinti müddəti",
+    "company": "Sifarişçi",
+    "works": "İşlərin təsviri",
     "project": {
         "1": {
             "name": "Zabux su anbarından qidalanan magistral boru kəmərinin layihələndirilməsi və tikintisi işləri",
@@ -103,12 +103,22 @@
             "scope": "Mingəçevir şəhərində uzunluğu 90 km-dən (DN200-DN1000) artıq kanalizasiya xətləri yenilənmiş və 1 ədəd kollektor xətti üzərində gücü 360 l/saniyə olan nasosxana tikilmişdir. Həmçinin, 1650 m mikrotunel xətlərinin çəkilməsi nəzərdə tutulmuşdur. Kanalizasiya xətləri üzrə toplam ev birləşmələrinin sayı 7,000 ədəddir. Tikinti işləri davam edir."
         },
         "17": {
-            "name": "Gədəbəy, Tərtər və Qazax rayonlarında Tullantı Sularının Təmizlənməsi Qurğularınin tikintisi və layihələndirilməsi",
-            "location": "Gədəbəy, Tərtər, Qazax / Azərbaycan",
+            "name": "Gədəbəy şəhərində Tullantı Su Təmizləyici Qurğusunun layihələndirilməsi, təchiz edilməsi və quraşdırılması",
+            "location": "Gədəbəy / Azərbaycan",
             "client": "“Azərsu” ASC",
-            "scope1": "Gədəbəy: Tullantı sularının təmizlənməsi üçün gücü Gədəbəy TSTQ – 3,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir.",
-            "scope2": "Tərtər: Tullantı sularının təmizlənməsi üçün gücü Tərtər TSTQ – 7,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir.",
-            "scope3": "Qazax: Tullantı sularının təmizlənməsi üçün gücü Qazax TSTQ – 10,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir."
+            "scope": "Gədəbəy: Tullantı sularının təmizlənməsi üçün gücü Gədəbəy TSTQ – 3,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir."
+            },
+        "171": {
+            "name": "Tərtər şəhərində Tullantı Su Təmizləyici Qurğusunun layihələndirilməsi, təchiz edilməsi və quraşdırılması",
+            "location2": "Tərtər / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope2": "Tərtər: Tullantı sularının təmizlənməsi üçün gücü Tərtər TSTQ – 7,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir."
+        },
+        "172": {
+            "name": "Qazax şəhərində Tullantı Su Təmizləyici Qurğusunun layihələndirilməsi, təchiz edilməsi və quraşdırılması",
+            "location": "Qazax / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope": "Qazax: Tullantı sularının təmizlənməsi üçün gücü Qazax TSTQ – 10,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir."
         },
         "18": {
             "name": "Bravo Əhmədli Hipermarket",
@@ -289,6 +299,12 @@
             "location": "Bakı / Azərbaycan",
             "client": "McDonald's Azərbaycan",
             "scope": "Layihə çərçivəsində Gənclik Mall, Əhmədli, Gəncə Mall, 28 Mall, Tarqovi, Sahil, Velotrek, Oazis, Hava limanı, Park Bulvar, Rose Garden, Amburan Mall, Dəniz Mall, Sumqayıt, Park Bulvar, Memar Əcəmi kimi 16 ədəd McDonalds Azərbaycan filiallarında fasad işləri, daxili tamamlama, mexanik, elektrik kimi işlərin də daxil olduğu bütün inşaat işləri icra edilmişdir."
+        },
+        "48": {
+            "name": "Bravo Superstore Şəmkir",
+            "location": "Şəmkir / Azərbaycan",
+            "client": "“Azerbaijan Supermarket” MMC",
+            "scope": "Ümumi tikinti sahəsi 8500 m2 olan supermarketin tikintisi açar təslimi müqavilə əsasında tamamlanmışdır."
         }
     }
 }

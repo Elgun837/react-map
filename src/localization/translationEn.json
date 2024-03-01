@@ -1,6 +1,6 @@
 {
     "locate": "Location",
-    "year": "Year of construction",
+    "year": "Construction period",
     "company": "Client",
     "works": "Scope of works",
     "project": {
@@ -103,12 +103,22 @@
             "scope": "More than 90 km long sewage lines (DN200-DN1000) have been renewed in the city of Mingachevir, and a pumping station with a capacity of 360 l/second has been built on one collector line. Also, construction of 1,650 m microtunnel lines is planned. The total number of house connections on sewage lines is 7,000 units. Construction works are ongoing."
         },
         "17": {
-            "name": "Design and Construction of Waste Water Treatment Plants in Gadabay, Qazakh, Terter",
-            "location": "Gadabay, Tartar, Gazakh / Azerbaijan",
+            "name": "Design and Construction of Waste Water Treatment Plants in Gadabay",
+            "location": "Gadabay / Azerbaijan",
             "client": "“Azersu” OJSC",
-            "scope1": "Gadabey: The design and construction of Gadabey WWTP – 3,500 m3/day facilities for wastewater treatment has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank.",
-            "scope2": "Tartar: The design and construction of facilities for the treatment of waste water Tartar WWTP – 7,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank",
-            "scope3": "Gazakh: Design and construction of facilities for wastewater treatment of Gazakh WWTP – 10,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank."
+            "scope": "Gadabey: The design and construction of Gadabey WWTP – 3,500 m3/day facilities for wastewater treatment has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank."
+             },
+        "171": {
+            "name": "Design and Construction of Waste Water Treatment Plants in Terter",
+            "location": "Tartar / Azerbaijan",
+            "client": "“Azersu” OJSC",
+            "scope": "Tartar: The design and construction of facilities for the treatment of waste water Tartar WWTP – 7,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank"
+            },
+        "172": {
+            "name": "Design and Construction of Waste Water Treatment Plants in Qazakh",
+            "location": "Gazakh / Azerbaijan",
+            "client": "“Azersu” OJSC",
+            "scope": "Gazakh: Design and construction of facilities for wastewater treatment of Gazakh WWTP – 10,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank."
         },
         "18": {
             "name": "Bravo Hypermarket Ahmadli",
@@ -289,6 +299,12 @@
             "location": "Baku / Azerbaijan",
             "client": "McDonald's Azerbaijan",
             "scope": "Within the project,  all construction works including internal finishing, mechanical, electrical works, facade works in 16 McDonalds Azerbaijan branches such as Ganjlik Mall, Ahmedli, Ganja Mall, 28 Mall, Targovi, Sahil, Velotrek, Oazis, Airport, Park Bulvar, Rose Garden, Amburan Mall, Deniz Mall, Sumgayit, Park Bulvar, Memar Ajami have been carried out."
+        },
+        "48": {
+            "name": "Bravo Superstore Shamkir",
+            "location": "Shamkir / Azərbaycan",
+            "client": "“Azerbaijan Supermarket” MMC",
+            "scope": "The construction of the supermarket with a total construction area of 8,500 m2 was completed under a turnkey contract."
         }
     }
 }
