@@ -291,8 +291,8 @@ const App = () => {
       scope: t("project.14.scope"),
     },
     {
-      id: 15,
-      position: { lat: 40.5234371, lng: 49.6554125 },
+      id: 15, 
+      position: { lat: 40.48953672721525, lng: 49.89136050462344 },
       info: t("project.15.name"),
       locate: t("project.15.location"),
       customer: t("project.15.client"),
@@ -677,8 +677,8 @@ const App = () => {
       scope: t("project.32.scope"),
     },
     {
-      id: 32, 
-      position: { lat: 40.15261823290817, lng: 48.76886180490017 },
+      id: 32,  
+      position: { lat: 40.132357546533676, lng: 48.844474155824 },
       info: t("project.32.name"),
       locate: t("project.32.location"),
       customer: t("project.32.client"),
@@ -910,8 +910,8 @@ const App = () => {
       scope: t("project.44.scope"),
     },
     {
-      id: 45,
-      position: { lat: 40.351954, lng: 48.7698953 },
+      id: 45, 
+      position: { lat: 40.156178137314846, lng: 48.84240532849617 },
       info: t("project.45.name"),
       locate: t("project.45.location"),
       customer: t("project.45.client"),
