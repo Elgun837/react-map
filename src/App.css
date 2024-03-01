@@ -144,7 +144,21 @@ h3 {
   display: flex;
   gap:8px;
 }
+.right_container {
+  overflow: auto;
+  max-height: 100%;
+}
 
+.right_container::-webkit-scrollbar
+{
+width:.8rem;
+background-color: #F5F5F5;
+}
+.right_container::-webkit-scrollbar-thumb
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #bc5777;
+}
 @media (min-width:6200px){
   .language_change button{
     padding:1.5rem;

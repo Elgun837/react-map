@@ -974,6 +974,7 @@ const App = () => {
         info: t(`project.${marker.id}.name`),
         locate: t(`project.${marker.id}.location`),
         customer: t(`project.${marker.id}.client`),
+        scope: t(`project.${marker.id}.scope`),
       }))
     );
   }, [t]);
@@ -1071,8 +1072,8 @@ const App = () => {
                     icon={{
                       url: "./Vector.svg",
                       scaledSize: new window.google.maps.Size(
-                        window.innerWidth < 2000 ? 24 : 100, // Set the desired height
-                        window.innerWidth < 2000 ? 24 : 100  // Set the desired width
+                        window.innerWidth < 2000 ? 36 : 124, // Set the desired height
+                        window.innerWidth < 2000 ? 36 : 124  // Set the desired width
                       ),
                     }}
                     onClick={() => handleMarkerClick(marker)}
