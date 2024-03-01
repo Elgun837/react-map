@@ -44,7 +44,7 @@ const Modal = ({ markerInfo, onClose }) => {
             </div>
             <div className="works">
               <h3 className="com_name">{ t("works")}</h3>
-              <p><img src={process.env.PUBLIC_URL + "/icons/customer.svg"} alt="Your SVG Icon" />{`${markerInfo.scope}`}</p>
+              <p>{`${markerInfo.scope}`}</p>
             </div>
           </div>
         </div>
