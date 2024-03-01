@@ -1005,9 +1005,9 @@ const App = () => {
     styles: [
       {
         textColor: "black",
-        url: "/images/holder.svg",
-        height: window.innerWidth < 2000 ? 36 : 100, 
-        width: window.innerWidth < 2000 ? 36 : 100,
+        url: "/images/holder.svg", 
+        height: window.innerWidth < 2000 ? 24 : 100, 
+        width: window.innerWidth < 2000 ? 24 : 100,
       },
     ],
   };
@@ -1048,7 +1048,7 @@ const App = () => {
       if (buttonLanguage === activeLanguage) {
         button.style.backgroundColor = "#68A99B";
       } else {
-        button.style.backgroundColor = ""; // Diğer düğmeleri varsayılan renge geri getirin
+        button.style.backgroundColor = ""; 
       }
     });
   }, [activeLanguage]);
