@@ -26,7 +26,9 @@
             "name": "Construction of Dashkasan-Kalbajar-Lachin Road (1274 Km)",
             "location": "Dashkasan, Kalbajar, Lachin / Azerbaijan",
             "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan",
-            "scope": ""
+            "scope1": "Dashkasan:  The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 147 km of the road falls on the territory of Dashkasan district.",
+            "scope2": "Kalbajar:  The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 556 km of the road falls on the territory of  Kalbajar district.",
+            "scope3": "Lachin: The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 571 km of the road falls on the territory of Lachin region."
         },
         "5": {
             "name": "Construction of Internal Roads and Communication lines of Fuzuli city",
@@ -104,7 +106,9 @@
             "name": "Design and Construction of Waste Water Treatment Plants in Gadabay, Qazakh, Terter",
             "location": "Gadabay, Tartar, Gazakh / Azerbaijan",
             "client": "“Azersu” OJSC",
-            "scope": ""
+            "scope1": "Gadabey: The design and construction of Gadabey WWTP – 3,500 m3/day facilities for wastewater treatment has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank.",
+            "scope2": "Tartar: The design and construction of facilities for the treatment of waste water Tartar WWTP – 7,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank",
+            "scope3": "Gazakh: Design and construction of facilities for wastewater treatment of Gazakh WWTP – 10,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank."
         },
         "18": {
             "name": "Bravo Hypermarket Ahmadli",

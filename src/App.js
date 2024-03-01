@@ -45,6 +45,7 @@ const App = () => {
       ],
       year: "2021-2024",
       class: "uzb",
+      scope: t("project.2.scope"),
     },
     {
       id: 3,
@@ -60,6 +61,7 @@ const App = () => {
       ],
       year: "2022-2024",
       class: "aze",
+      scope: t("project.3.scope"),
     },
     {
       id: 4, 
@@ -79,6 +81,7 @@ const App = () => {
       ],
       year: "2021-2024",
       class: "aze",
+      scope: t("project.4.scope1"),
     },
     {
       id: 4, 
@@ -98,6 +101,7 @@ const App = () => {
       ],
       year: "2021-2024",
       class: "aze",
+      scope: t("project.4.scope2"),
     },
     {
       id: 4, 
@@ -117,6 +121,7 @@ const App = () => {
       ],
       year: "2021-2024",
       class: "aze",
+      scope: t("project.4.scope3"),
     },
     { 
       id: 5,
@@ -133,6 +138,7 @@ const App = () => {
       ],
       year: "2023-2025",
       class: "aze",
+      scope: t("project.5.scope"),
     },
     {
       id: 6,
@@ -148,6 +154,7 @@ const App = () => {
       ],
       year: "2019-2021",
       class: "kuveyt",
+      scope: t("project.6.scope"),
     },
     {
       id: 7,
@@ -163,6 +170,7 @@ const App = () => {
       ],
       year: "2022-2025",
       class: "aze",
+      scope: t("project.7.scope"),
     },
     {
       id: 8, 
@@ -178,6 +186,7 @@ const App = () => {
       ],
       year: "2016-2020",
       class: "aze",
+      scope: t("project.8.scope"),
     },
     {
       id: 9, 
@@ -193,6 +202,7 @@ const App = () => {
       ],
       year: "2014-2017",
       class: "aze",
+      scope: t("project.9.scope"),
     },
     {
       id: 10,
@@ -210,6 +220,7 @@ const App = () => {
       ],
       year: "2018-2022",
       class: "aze",
+      scope: t("project.10.scope"),
     },
     {
       id: 11, 
@@ -227,6 +238,7 @@ const App = () => {
       ],
       year: "2011-2015",
       class: "aze",
+      scope: t("project.11.scope"),
     },
     { 
       id: 12,
@@ -241,22 +253,24 @@ const App = () => {
       ],
       year: "2021-2025",
       class: "aze",
+      scope: t("project.12.scope"),
     },
-    { 
-      id: 13,
-      position: { lat: 40.37556931371039, lng: 49.86176592024127 },
-      info: t("project.13.name"),
-      locate: t("project.13.location"),
-      customer: t("project.13.client"),
-      images: [
-        "./images/projects/Portbaku_2/portbaku_2(1).webp",
-        "./images/projects/Portbaku_2/portbaku_2(2).webp",
-        "./images/projects/Portbaku_2/portbaku_2(3).webp",
-        "./images/projects/Portbaku_2/portbaku_2(4).webp",
-      ],
-      year: "2012-2014",
-      class: "aze",
-    },
+    // { 
+    //   id: 13,
+    //   position: { lat: 40.37556931371039, lng: 49.86176592024127 },
+    //   info: t("project.13.name"),
+    //   locate: t("project.13.location"),
+    //   customer: t("project.13.client"),
+    //   images: [
+    //     "./images/projects/Portbaku_2/portbaku_2(1).webp",
+    //     "./images/projects/Portbaku_2/portbaku_2(2).webp",
+    //     "./images/projects/Portbaku_2/portbaku_2(3).webp",
+    //     "./images/projects/Portbaku_2/portbaku_2(4).webp",
+    //   ],
+    //   year: "2012-2014",
+    //   class: "aze",
+    //   scope: t("project.13.scope"),
+    // },
     { 
       id: 14,
       position: { lat: 41.63259893027135, lng: 48.68695888045524 },
@@ -274,6 +288,7 @@ const App = () => {
       ],
       year: "2021-2022",
       class: "aze",
+      scope: t("project.14.scope"),
     },
     {
       id: 15,
@@ -293,6 +308,7 @@ const App = () => {
       ],
       year: "2022-2024",
       class: "aze",
+      scope: t("project.15.scope"),
     },
     {
       id: 16,
@@ -308,6 +324,7 @@ const App = () => {
       ],
       year: "2021-2026",
       class: "aze",
+      scope: t("project.16.scope"),
     },
     { 
       id: 17,
@@ -334,6 +351,8 @@ const App = () => {
       ],
       year: "2019-2021",
       class: "aze",
+      scope: t("project.17.scope1"),
+      
     },
     { 
       id: 17,
@@ -360,6 +379,7 @@ const App = () => {
       ],
       year: "2019-2021",
       class: "aze",
+      scope: t("project.17.scope2"),
     },
     { 
       id: 17,
@@ -386,6 +406,7 @@ const App = () => {
       ],
       year: "2019-2021",
       class: "aze",
+      scope: t("project.17.scope3"),
     },
     { 
       id: 18,
@@ -402,6 +423,7 @@ const App = () => {
       ],
       year: "2015-2017",
       class: "aze",
+      scope: t("project.18.scope"),
     },
     { 
       id: 19,
@@ -419,6 +441,7 @@ const App = () => {
       ],
       year: "2022-2023",
       class: "aze",
+      scope: t("project.19.scope"),
     },
     {
       id: 20,
@@ -435,6 +458,7 @@ const App = () => {
       ],
       year: "2022-2023",
       class: "aze",
+      scope: t("project.20.scope"),
     },
     { 
       id: 21,
@@ -451,6 +475,7 @@ const App = () => {
       ],
       year: "2015-2016",
       class: "aze",
+      scope: t("project.21.scope"),
     },
     {
       id: 22,
@@ -466,6 +491,7 @@ const App = () => {
       ],
       year: "2018-2019",
       class: "aze",
+      scope: t("project.22.scope"),
     },
     {
       id: 23,
@@ -485,6 +511,7 @@ const App = () => {
       ],
       year: "2019-2022",
       class: "aze",
+      scope: t("project.23.scope"),
     },
     {
       id: 24,
@@ -501,6 +528,7 @@ const App = () => {
       ],
       year: "2017-2018",
       class: "aze",
+      scope: t("project.24.scope"),
     },
     { 
       id: 25,
@@ -520,6 +548,7 @@ const App = () => {
       ],
       year: "2018-2020",
       class: "montenegro",
+      scope: t("project.25.scope"),
     },
     {
       id: 26,
@@ -539,6 +568,7 @@ const App = () => {
       ],
       year: "2013-2015",
       class: "aze",
+      scope: t("project.26.scope"),
     },
     {
       id: 27,
@@ -562,6 +592,7 @@ const App = () => {
       ],
       year: "2020-2021",
       class: "aze",
+      scope: t("project.27.scope"),
     },
     { 
       id: 28,
@@ -586,6 +617,7 @@ const App = () => {
       ],
       year: "2013-2015",
       class: "aze",
+      scope: t("project.28.scope"),
     },
     {
       id: 29,
@@ -602,6 +634,7 @@ const App = () => {
       ],
       year: "2012-2014",
       class: "aze",
+      scope: t("project.29.scope"),
     },
     {
       id: 30, 
@@ -623,6 +656,7 @@ const App = () => {
       ],
       year: "2016-2017",
       class: "aze",
+      scope: t("project.30.scope"),
     },
     {
       id: 31,
@@ -640,6 +674,7 @@ const App = () => {
       ],
       year: "2015-2016",
       class: "aze",
+      scope: t("project.32.scope"),
     },
     {
       id: 32, 
@@ -653,6 +688,7 @@ const App = () => {
       ],
       year: "2019-2020",
       class: "aze",
+      scope: t("project.32.scope"),
     },
     {
       id: 33,
@@ -667,6 +703,7 @@ const App = () => {
       ],
       year: "2012-2013",
       class: "aze",
+      scope: t("project.33.scope"),
     },
     {
       id: 34,
@@ -682,6 +719,7 @@ const App = () => {
       ],
       year: "2018-2019",
       class: "aze",
+      scope: t("project.34.scope"),
     },
     {
       id: 35,
@@ -702,6 +740,7 @@ const App = () => {
       ],
       year: "2014-2015",
       class: "aze",
+      scope: t("project.35.scope"),
     },
     {
       id: 36,
@@ -723,6 +762,7 @@ const App = () => {
       ],
       year: "2016-2017",
       class: "aze",
+      scope: t("project.36.scope"),
     },
     {
       id: 37,
@@ -738,6 +778,8 @@ const App = () => {
       ],
       year: "2015-2016",
       class: "aze",
+      scope: t("project.37.scope"),
+
     },
     {
       id: 38,
@@ -757,6 +799,7 @@ const App = () => {
       ],
       year: "2015-2016",
       class: "aze",
+      scope: t("project.38.scope"),
     },
     {
       id: 39,
@@ -777,6 +820,7 @@ const App = () => {
       ],
       year: "2015-2016",
       class: "aze",
+      scope: t("project.39.scope"),
     },
     {
       id: 40,
@@ -791,23 +835,24 @@ const App = () => {
       ],
       year: "2021-2024",
       class: "aze",
+      scope: t("project.40.scope"),
     },
-    {
-      id: 41,
-      position: { lat: 40.991371, lng: 45.596174 },
-      info: t("project.41.name"),
-      locate: t("project.41.location"),
-      customer: t("project.41.client"),
-      images: [
-        "./images/projects/Tovuzyol/yol(1).webp",
-        "./images/projects/Tovuzyol/yol(2).webp",
-        "./images/projects/Tovuzyol/yol(3).webp",
-        "./images/projects/Tovuzyol/yol(4).webp",
-        "./images/projects/Tovuzyol/yol(5).webp",
-      ],
-      year: "2016-2017",
-      class: "aze",
-    },
+    // {
+    //   id: 41,
+    //   position: { lat: 40.991371, lng: 45.596174 },
+    //   info: t("project.41.name"),
+    //   locate: t("project.41.location"),
+    //   customer: t("project.41.client"),
+    //   images: [
+    //     "./images/projects/Tovuzyol/yol(1).webp",
+    //     "./images/projects/Tovuzyol/yol(2).webp",
+    //     "./images/projects/Tovuzyol/yol(3).webp",
+    //     "./images/projects/Tovuzyol/yol(4).webp",
+    //     "./images/projects/Tovuzyol/yol(5).webp",
+    //   ],
+    //   year: "2016-2017",
+    //   class: "aze",
+    // },
     {
       id: 42,
       position: { lat: 40.38807712302191, lng: 49.875458363823775 },
@@ -823,6 +868,7 @@ const App = () => {
       ],
       year: "2020-2021",
       class: "aze",
+      scope: t("project.42.scope"),
     },
     {
       id: 43,
@@ -843,6 +889,7 @@ const App = () => {
       ],
       year: "",
       class: "aze",
+      scope: t("project.43.scope"),
     },
     { 
       id: 44,
@@ -860,6 +907,7 @@ const App = () => {
       ],
       year: "2016-2017",
       class: "aze",
+      scope: t("project.44.scope"),
     },
     {
       id: 45,
@@ -877,6 +925,7 @@ const App = () => {
       ],
       year: "2017-2018",
       class: "aze",
+      scope: t("project.45.scope"),
     },
     {
       id: 46,
@@ -887,6 +936,7 @@ const App = () => {
       images: ["./images/projects/Bravosuper/bravo.webp"],
       year: "2017-2022",
       class: "aze",
+      scope: t("project.46.scope"),
     },
     {
       id: 47,
@@ -913,6 +963,7 @@ const App = () => {
       ],
       year: "2011-2024",
       class: "aze",
+      scope: t("project.47.scope"),
     },
   ]);
 

@@ -26,7 +26,9 @@
             "name": "Daşkəsən-Kəlbəcər-Laçin Yolunun Tikintisi (1274 Km)",
             "location": "Daşkəsən, Kəlbəcər, Laçın / Azərbaycan",
             "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi və Azərbaycan Respublikası Müdafiə Nazirliyi",
-            "scope": ""
+            "scope1": "Daşkəsən: Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 147 km-i Daşkəsən rayonu ərazisinə düşür.",
+            "scope2": "Kəlbəcər Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 556 km-i Kəlbəcər  rayonu ərazisinə düşür. ",
+            "scope3": "Laçın:  Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 571 km-i Laçın  rayonu ərazisinə düşür."
         },
         "5": {
             "name": "Füzuli Şəhərinin Daxili Yollarının və Kommunikasiya Xətlərinin Tikintisi",
@@ -104,7 +106,9 @@
             "name": "Gədəbəy, Tərtər və Qazax rayonlarında Tullantı Sularının Təmizlənməsi Qurğularınin tikintisi və layihələndirilməsi",
             "location": "Gədəbəy, Tərtər, Qazax / Azərbaycan",
             "client": "“Azərsu” ASC",
-            "scope": ""
+            "scope1": "Gədəbəy: Tullantı sularının təmizlənməsi üçün gücü Gədəbəy TSTQ – 3,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir.",
+            "scope2": "Tərtər: Tullantı sularının təmizlənməsi üçün gücü Tərtər TSTQ – 7,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir.",
+            "scope3": "Qazax: Tullantı sularının təmizlənməsi üçün gücü Qazax TSTQ – 10,500 m3/gün olan qurğuların layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir."
         },
         "18": {
             "name": "Bravo Əhmədli Hipermarket",
