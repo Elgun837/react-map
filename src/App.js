@@ -1005,9 +1005,9 @@ const App = () => {
     styles: [
       {
         textColor: "black",
-        url: "/images/holder.svg", // Provide the path to your custom cluster icon
-        height: window.innerWidth < 2000 ? 24 : 100, // Set the desired height
-        width: window.innerWidth < 2000 ? 24 : 100,
+        url: "/images/holder.svg",
+        height: window.innerWidth < 2000 ? 36 : 100, 
+        width: window.innerWidth < 2000 ? 36 : 100,
       },
     ],
   };
