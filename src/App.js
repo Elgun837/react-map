@@ -84,7 +84,7 @@ const App = () => {
       scope: t("project.4.scope1"),
     },
     {
-      id: 4, 
+      id: 442, 
       position: { lat: 39.98695174584499, lng: 45.79696344907655 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
@@ -101,10 +101,10 @@ const App = () => {
       ],
       year: "2021-2024",
       class: "aze",
-      scope: t("project.4.scope2"),
+      scope: t("project.4.scope3"),
     },
     {
-      id: 4, 
+      id: 443, 
       position: { lat: 40.23263101014626, lng: 46.16896780490018 },
       info: t("project.4.name"),
       locate: t("project.4.location"),

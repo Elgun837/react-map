@@ -26,9 +26,19 @@
             "name": "Daşkəsən-Kəlbəcər-Laçin Yolunun Tikintisi (1274 Km)",
             "location": "Daşkəsən, Kəlbəcər, Laçın / Azərbaycan",
             "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi və Azərbaycan Respublikası Müdafiə Nazirliyi",
-            "scope1": "Daşkəsən: Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 147 km-i Daşkəsən rayonu ərazisinə düşür.",
-            "scope2": "Kəlbəcər Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 556 km-i Kəlbəcər  rayonu ərazisinə düşür. ",
-            "scope3": "Laçın:  Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 571 km-i Laçın  rayonu ərazisinə düşür."
+            "scope": "Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 147 km-i Daşkəsən rayonu ərazisinə düşür."
+        },
+        "442": {
+            "name": "Daşkəsən-Kəlbəcər-Laçin Yolunun Tikintisi (1274 Km)",
+            "location": "Daşkəsən, Kəlbəcər, Laçın / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi və Azərbaycan Respublikası Müdafiə Nazirliyi",
+            "scope": "Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 556 km-i Kəlbəcər  rayonu ərazisinə düşür. "
+        },
+        "443": {
+            "name": "Daşkəsən-Kəlbəcər-Laçin Yolunun Tikintisi (1274 Km)",
+            "location": "Daşkəsən, Kəlbəcər, Laçın / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi və Azərbaycan Respublikası Müdafiə Nazirliyi",
+            "scope": "Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 571 km-i Laçın  rayonu ərazisinə düşür."
         },
         "5": {
             "name": "Füzuli Şəhərinin Daxili Yollarının və Kommunikasiya Xətlərinin Tikintisi",

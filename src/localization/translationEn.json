@@ -26,9 +26,19 @@
             "name": "Construction of Dashkasan-Kalbajar-Lachin Road (1274 Km)",
             "location": "Dashkasan, Kalbajar, Lachin / Azerbaijan",
             "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan",
-            "scope1": "Dashkasan:  The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 147 km of the road falls on the territory of Dashkasan district.",
-            "scope2": "Kalbajar:  The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 556 km of the road falls on the territory of  Kalbajar district.",
-            "scope3": "Lachin: The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 571 km of the road falls on the territory of Lachin region."
+            "scope1": "Dashkasan:  The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 147 km of the road falls on the territory of Dashkasan district."
+        },
+        "442": {
+            "name": "Construction of Dashkasan-Kalbajar-Lachin Road (1274 Km)",
+            "location": "Dashkasan, Kalbajar, Lachin / Azerbaijan",
+            "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan",
+            "scope": "Kalbajar:  The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 556 km of the road falls on the territory of  Kalbajar district."
+        },
+        "443": {
+            "name": "Construction of Dashkasan-Kalbajar-Lachin Road (1274 Km)",
+            "location": "Dashkasan, Kalbajar, Lachin / Azerbaijan",
+            "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan",
+            "scope": "Lachin: The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 571 km of the road falls on the territory of Lachin region."
         },
         "5": {
             "name": "Construction of Internal Roads and Communication lines of Fuzuli city",
