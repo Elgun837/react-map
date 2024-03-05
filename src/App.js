@@ -869,7 +869,7 @@ const App = () => {
     },
     {
       id: 43,
-      position: { lat: 40.3759967, lng: 49.8608802 },
+      position: { lat: 40.3758903018613, lng: 49.8612629221442 },
       info: t("project.43.name"),
       locate: t("project.43.location"),
       customer: t("project.43.client"),
@@ -1068,6 +1068,18 @@ const App = () => {
         src={process.env.PUBLIC_URL + "/images/logo.svg"}
         alt="Logo"
       />
+      
+      <div className="btn_info">
+        <button >
+          Bravo
+        </button>
+        <button >
+          Mcdonalds
+        </button>
+        <button >
+          Subartezian
+        </button>
+      </div>
       <LoadScript googleMapsApiKey="AIzaSyAlPbyceaWa75wtjv7U4etyl0I-R2Tdmdw">
         <GoogleMap
           mapContainerStyle={mapContainerStyle}

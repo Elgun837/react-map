@@ -148,7 +148,21 @@ h3 {
   overflow: auto;
   max-height: 100%;
 }
-
+.btn_info {
+  z-index: 99;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.btn_info button{
+  padding:.7rem;
+  border-radius:.7rem;
+  border:2px solid #FFF;
+  margin:.4rem
+}
 .right_container::-webkit-scrollbar
 {
 width:.8rem;
