@@ -1030,7 +1030,6 @@ const App = () => {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
-    localStorage.setItem("language", lng);
     setActiveLanguage(lng);
   };
 
