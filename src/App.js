@@ -8,6 +8,11 @@ import Modal from "./Modal";
 import ButtonModal from "./ButtonModal";
 import { useTranslation } from "react-i18next";
 import i18n from "./i18n";
+
+// Kvadratmetrleri duzeltmek
+//Tarixleri tercume
+// sekilleri duzeltmek
+//Gedebey sekilleri olsa gonderecekler
 const App = () => {
   const { t, i18n } = useTranslation();
   const [activeLanguage, setActiveLanguage] = useState(
@@ -50,8 +55,8 @@ const App = () => {
       scope: t("project.2.scope"),
     },
     {
-      id: 3,
-      position: { lat: 39.645464009722275, lng: 47.16649254232744 },
+      id: 3,  
+      position: { lat: 39.61428877292762, lng: 47.15580781011356 },
       info: t("project.3.name"),
       locate: t("project.3.location"),
       customer: t("project.3.client"),
@@ -66,8 +71,8 @@ const App = () => {
       scope: t("project.3.scope"),
     },
     {
-      id: 4,
-      position: { lat: 39.645629237795184, lng: 47.16648182069096 },
+      id: 4, 
+      position: { lat: 39.6411691963279, lng: 46.541586037953714 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
       customer: t("project.4.client"),
@@ -83,11 +88,11 @@ const App = () => {
       ],
       year: "2021-2024",
       class: "aze",
-      scope: t("project.4.scope1"),
+      scope: t("project.4.scope"),
     },
     {
-      id: 442,
-      position: { lat: 39.98695174584499, lng: 45.79696344907655 },
+      id: 442, 
+      position: { lat: 39.98670513514073, lng: 45.79701172538381 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
       customer: t("project.4.client"),
@@ -106,8 +111,8 @@ const App = () => {
       scope: t("project.4.scope3"),
     },
     {
-      id: 443,
-      position: { lat: 40.23263101014626, lng: 46.16896780490018 },
+      id: 443, 
+      position: { lat: 40.23230747582256, lng: 46.16905230163727 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
       customer: t("project.4.client"),
@@ -253,7 +258,7 @@ const App = () => {
         "./images/projects/Salyan/salyan(2).webp",
         "./images/projects/Salyan/salyan(3).webp",
       ],
-      year: "2021-2025",
+      year: "2021-2026",
       class: "aze",
       scope: t("project.12.scope"),
     },
@@ -356,7 +361,8 @@ const App = () => {
     },
     {
       id: 171,
-      position: { lat: 41.11178983518362, lng: 45.384452093252904 },
+      position: { lat: 40.34609412356789, lng: 46.963374906747084 },
+      
       info: t("project.171.name"),
       locate: t("project.171.location"),
       customer: t("project.171.client"),
@@ -382,7 +388,7 @@ const App = () => {
     },
     {
       id: 172,
-      position: { lat: 40.34609412356789, lng: 46.963374906747084 },
+      position: { lat: 41.11178983518362, lng: 45.384452093252904 },
       info: t("project.172.name"),
       locate: t("project.172.location"),
       customer: t("project.172.client"),
@@ -400,7 +406,6 @@ const App = () => {
         "./images/projects/Gedebey/gedebey(11).webp",
         "./images/projects/Gedebey/gedebey(12).webp",
         "./images/projects/Gedebey/gedebey(13).webp",
-        "./images/projects/Gedebey/gedebey(14).webp",
       ],
       year: "2019-2021",
       class: "aze",
@@ -454,7 +459,7 @@ const App = () => {
         "./images/projects/Denizmall/denizmall(4).webp",
         "./images/projects/Denizmall/denizmall(5).webp",
       ],
-      year: "2022-2023",
+      year: "2016-2017",
       class: "aze",
       scope: t("project.20.scope"),
     },
@@ -469,7 +474,6 @@ const App = () => {
         "./images/projects/Qaradag/qaradag(2).webp",
         "./images/projects/Qaradag/qaradag(3).webp",
         "./images/projects/Qaradag/qaradag(4).webp",
-        "./images/projects/Qaradag/qaradag(5).webp",
       ],
       year: "2015-2016",
       class: "aze",
@@ -754,9 +758,6 @@ const App = () => {
         "./images/projects/Tovuz/tovuz(5).webp",
         "./images/projects/Tovuz/tovuz(6).webp",
         "./images/projects/Tovuz/tovuz(7).webp",
-        "./images/projects/Tovuz/tovuz(8).webp",
-        "./images/projects/Tovuz/tovuz(9).webp",
-        "./images/projects/Tovuz/tovuz(10).webp",
       ],
       year: "2016-2017",
       class: "aze",
@@ -884,7 +885,7 @@ const App = () => {
         "./images/projects/Atelier/atelier(8).webp",
         "./images/projects/Atelier/atelier(9).webp",
       ],
-      year: "",
+      year: "2011-2012",
       class: "aze",
       scope: t("project.43.scope"),
     },
@@ -982,7 +983,7 @@ const App = () => {
         "./images/projects/Mcdonalds/mc(14).webp",
         "./images/projects/Mcdonalds/mc(15).webp",
       ],
-      year: "2011-2024",
+      year: "2020-2021",
       class: "aze",
       scope: t("project.47.scope"),
       logo:"./images/projects/Mcdonalds/mc-logo.png"
@@ -1001,7 +1002,7 @@ const App = () => {
       year: "2021-2023",
       class: "aze",
       scope: t("project.49.scope"),
-      logo:""
+      logo:"./images/projects/Mcdonalds/mc-logo.png"
     },
   ]);
   useEffect(() => {

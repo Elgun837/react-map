@@ -26,25 +26,25 @@
             "name": "Construction of Dashkasan-Kalbajar-Lachin Road (1274 Km)",
             "location": "Dashkasan, Kalbajar, Lachin / Azerbaijan",
             "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan",
-            "scope1": "The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 147 km of the road falls on the territory of Dashkasan district."
+            "scope": "The project involves the construction of  1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 571 km of the road falls on the territory of Lachin district."
         },
         "442": {
             "name": "Construction of Dashkasan-Kalbajar-Lachin Road (1274 Km)",
             "location": "Dashkasan, Kalbajar, Lachin / Azerbaijan",
             "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan",
-            "scope": "The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 556 km of the road falls on the territory of  Kalbajar district."
+            "scope": "The project involves the construction of  1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 556 km of the road falls on the territory of  Kalbajar district."
         },
         "443": {
             "name": "Construction of Dashkasan-Kalbajar-Lachin Road (1274 Km)",
             "location": "Dashkasan, Kalbajar, Lachin / Azerbaijan",
             "client": "State Agency of Motorways of Azerbaijan and Ministry of Defense of the Republic of Azerbaijan",
-            "scope": "The project involves the construction of a 1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 571 km of the road falls on the territory of Lachin region."
+            "scope": "The project involves the construction of  1,274 km long 4th category road passing through Dashkasan, Kalbajar and Lachin districts. 147 km of the road falls on the territory of Dashkasan region."
         },
         "5": {
             "name": "Construction of Internal Roads and Communication lines of Fuzuli city",
             "location": "Fuzuli / Azerbaijan",
             "client": "State Agency of Azerbaijan for Roads",
-            "scope": "This project includes the construction of 18.5 km long internal roads in the city of Fuzuli. Within the framework of the project, 3,360 m of rainwater lines and 69 wells, 5,567 m of drinking water lines and 11 hydrants, 19,431 m of communication lines and 37 wells have been completed."
+            "scope": "This project includes construction of 18.5 km long internal roads in the city of Fuzuli. Within the framework of the project, 3,360 m of rainwater lines and 69 wells, 5,567 m of drinking water lines and 11 hydrants, 19,431 m of communication lines and 37 wells have been completed."
         },
         "6": {
             "name": "South Al Mutlaa Housing Projects",
@@ -53,7 +53,7 @@
             "scope": "Within the framework of this project, 49.5 km (DN200-DN600) sewage line, 52.7 km (DN200-DN1400) rainwater network and 30.1 km (DN100-DN300) water supply line were installed. The project also includes the laying of 25.8 km of lighting pipes and 1.4 km of power lines."
         },
         "7": {
-            "name": "Rehabilitation of the M3 Alat-Astara-State Border of Iran Highway Between Yeni-kend and Bilasuvar (Original Alignment) km 32 to km 103",
+            "name": "Rehabilitation of the M3 Alat-Astara-State Border of Iran Highway Between Yenikend and Bilasuvar (Original Alignment) km 32 to km 103",
             "location": "Salyan, Bilasuvar / Azerbaijan",
             "client": "State Agency of Azerbaijan for Roads",
             "scope": "The project includes rehabilitation of 71 km long 2-lane road, construction of 6 bridges and other related road components. The project is financed by the World Bank and executed on the basis of the 'FIDIC' contract standard."
@@ -68,7 +68,7 @@
             "name": "“Ganja Mall” Shopping Center",
             "location": "Ganja / Azerbaijan",
             "client": "“Pasha Construction” LLC",
-            "scope": "'Ganja Mall' located in the city of Ganja is the first trade and entertainment center built in the western region of Azerbaijan. The construction of the trade center with a total area of 54,000 m2 was completed by North West Construction on the basis of a turnkey contract."
+            "scope": "'Ganja Mall' located in the city of Ganja is the first trade and entertainment center built in the western region of Azerbaijan. The construction of the trade center with a total area of 54,000 m2 was completed by North West Construction on the basis of turnkey contract."
         },
         "10": {
             "name": "Ritz Carlton Hotel",
@@ -86,7 +86,7 @@
             "name": "Reconstruction of water supply and sewerage system of Salyan",
             "location": "Salyan / Azərbaijan",
             "client": "“Azersu” OJSC",
-            "scope": "The construction of sewage lines with a length of more than 80 km (DN200-DN800) is planned in the city of Salyan. More than 46 km long drinking water lines (DN90-DN280) have been built. Also, construction of 8 km long microtunnel lines and construction of pumping stations of different capacities on 9 collector lines are planned. The total number of house connections on sewage lines is 5050 units. Construction works are ongoing."
+            "scope": "The construction of sewage lines with a length of more than 80 km (DN200-DN800) is planned in the city of Salyan. More than 46 km long drinking water lines (DN90-DN280) have been constructed. Also, construction of 8 km long microtunnel lines and construction of pumping stations of different capacities on 9 collector lines are planned. The total number of house connections on sewage lines are 5050 units. Construction works are ongoing."
         },
         "13": {
             "name": "Port Baku South Tower",
@@ -98,43 +98,43 @@
             "name": "Khudat Multifunctional Agrocomplex",
             "location": "Khudat / Azerbaijan",
             "client": "“Foodcity Agropark” LLC",
-            "scope": "The agro complex with a construction area of 30,363 m2 and a landscape area of 100,000 m2 was completed under a turnkey contract."
+            "scope": "The agrocomplex with construction area of 30,363 m2 and landscape area of 100,000 m2 was completed under a turnkey contract."
         },
         "15": {
             "name": "Construction works of Ceyranbatan- Absheron-Balakhani-Ramana-Zira-Pirallahi main water pipeline and central reservoirs located along that pipeline",
             "location": "Absheron / Azerbaijan",
             "client": "“Azersu” OJSC",
-            "scope": "The project includes the construction of a 10.4 km long main line (DN1620 mm) and 4 reservoirs of 10,000 m³ each in the Balakhani storage complex. The installation of metal pipes DN630 - DN2220 in control distribution rooms is 900 m."
+            "scope": "The project includes construction of 10.4 km long main line (DN1620 mm) and 4 reservoirs of 10,000 m³ each in the Balakhani storage complex. The installation of metal pipes DN630 - DN2220 in control distribution rooms is 900 m."
         },
         "16": {
             "name": "Reconstruction of water supply and sewerage system of Mingachevir",
             "location": "Mingachevir / Azerbaijan",
             "client": "“Azersu” OJSC",
-            "scope": "More than 90 km long sewage lines (DN200-DN1000) have been renewed in the city of Mingachevir, and a pumping station with a capacity of 360 l/second has been built on one collector line. Also, construction of 1,650 m microtunnel lines is planned. The total number of house connections on sewage lines is 7,000 units. Construction works are ongoing."
+            "scope": "More than 90 km long sewage lines (DN200-DN1000) have been renewed in the city of Mingachevir, and a pumping station with a capacity of 360 l/second has been built on one collector line. Also, construction of 1,650 m microtunnel lines is planned. The total number of house connections on sewage lines are 7,000 units. Construction works are ongoing."
         },
         "17": {
-            "name": "Design and Construction of Waste Water Treatment Plants in Gadabay",
-            "location": "Gadabay / Azerbaijan",
+            "name": "Design, Supply and Installation of Waste Water Treatment Plants in Gedebey",
+            "location": "Gedebey / Azerbaijan",
             "client": "“Azersu” OJSC",
-            "scope": "The design and construction of Gadabey WWTP – 3,500 m3/day facilities for wastewater treatment has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank."
+            "scope": "Design and construction of Gadabey WWTP – 3,500 m3/day facility for wastewater treatment has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank."
              },
         "171": {
-            "name": "Design and Construction of Waste Water Treatment Plants in Terter",
-            "location": "Tartar / Azerbaijan",
+            "name": "Design, Supply and Installation of Waste Water Treatment Plants in Terter",
+            "location": "Terter / Azerbaijan",
             "client": "“Azersu” OJSC",
-            "scope": "The design and construction of facilities for the treatment of waste water Tartar WWTP – 7,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank"
+            "scope": "Design and construction of facility for the treatment of waste water Tartar WWTP – 7,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank"
             },
         "172": {
-            "name": "Design and Construction of Waste Water Treatment Plants in Qazakh",
+            "name": "Design, Supply and Installation of Waste Water Treatment Plants in Qazakh",
             "location": "Gazakh / Azerbaijan",
             "client": "“Azersu” OJSC",
-            "scope": "Design and construction of facilities for wastewater treatment of Gazakh WWTP – 10,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank."
+            "scope": "Design and construction of facility for wastewater treatment of Gazakh WWTP – 10,500 m3/day has been completed. The project was tendered under international procurement conditions and financed by the Islamic Development Bank."
         },
         "18": {
             "name": "Bravo Hypermarket Ahmadli",
             "location": "Baku / Azerbaijan",
             "client": "“Azerbaijan Supermarket” LLC",
-            "scope": "The construction of the Hypermarket with a construction area of 11,000 m2 and a landscape area of 20,000 m2 has been completed on the basis of a turnkey contract."
+            "scope": "Сonstruction of the hypermarket with construction area of 11,000 m2 and landscape area of 20,000 m2 has been completed on the basis of turnkey contract."
         },
         "19": {
             "name": "Port Baku Garden Walk Way",
@@ -176,7 +176,7 @@
             "name": "One & Only Resort Portonovi",
             "location": "Portonovi / Montonegro",
             "client": "“Azmont Investment” LLC",
-            "scope": "The fit-out and furnishing of the 140-room 5-star One & Only Portonovi (Monteneqro) hotel has been completed."
+            "scope": "The fit-out and furnishing of the 140-room 5-star One & Only Portonovi (Montenegro) hotel has been completed."
         },
         "26": {
             "name": "Hotel Baku Marriott Boulevard",
@@ -191,10 +191,10 @@
             "scope": "Within the framework of the project, interior repair-completion and furniture works of the hotel were carried out."
         },
         "28": {
-            "name": "İntourist Hotel",
+            "name": "Intourist Hotel",
             "location": "Baku / Azerbaijan",
             "client": "“Pasha Construction” LLC",
-            "scope": "The repair and furnishing of the hotel, which reflects 80 years of architectural heritage and consists of 150 spacious and luxurious rooms, has been completed."
+            "scope": "The repair and furnishing of the hotel, which reflects 80 years of architectural heritage and consists of 150 spacious and luxurious rooms has been completed."
         },
         "29": {
             "name": "Pik Palace Shahdag Hotel",
@@ -206,13 +206,13 @@
             "name": "Bravo 20 January Hypermarket",
             "location": "Baku / Azerbaijan",
             "client": "“Azerbaijan Supermarket” LLC",
-            "scope": "20,313  m2reinforced concrete construction and facade works, as well as mechanical and electrical works have been completed. Market area is 13,772  m2, internal parking area is 6,441  m2, landscape area is 5,850  m2."
+            "scope": "20,313 m2 reinforced concrete construction and facade works, as well as mechanical and electrical works have been completed. Market area is 13,772  m2, internal parking area is 6,441  m2, landscape area is 5,850  m2."
         },
         "31": {
             "name": "Ganjlik Mall Shopping Center",
             "location": "Baku / Azerbaijan",
             "client": "“Pasha Construction” LLC",
-            "scope": "The repair and furnishing works of the shopping center with a total area of 50,000 m2 have been completed"
+            "scope": "Repair and furnishing works of the shopping center with total area of 50,000 m2 have been completed"
         },
         "32": {
             "name": "Hajigabul Pharm Base ",
@@ -230,7 +230,7 @@
             "name": "R-Pharm medical factory",
             "location": "Baku / Azerbaijan",
             "client": "“R-Pharm” LLC",
-            "scope": "The construction of the plant with a total landscape area of 20,000 m2 and settlement area of 4,400 m2 has been completed on a turnkey basis."
+            "scope": "Construction of the plant with total landscape area of 20,000 m2 and settlement area of 4,400 m2 has been completed on a turnkey basis."
         },
         "35": {
             "name": "Amburan Shopping Mall",
@@ -239,10 +239,10 @@
             "scope": "Reinforcement-concrete and repair-completion works were carried out in the construction of the shopping center"
         },
         "36": {
-            "name": "Tovuz irrigation pipeline project",
-            "location": "Baku / Azerbaijan",
+            "name": "Construction project of irrigation system in Jeyranchol area of Tovuz region",
+            "location": "Tovuz / Azerbaijan",
             "client": "“Agro Dairy” LLC",
-            "scope": "A 31.1 km (DN800-DN1700) steel pipe line and a 122.1 km (DN200-DN500) polyethylene pipe (HDPE) line have been laid for the purpose of irrigating agricultural fields in Tovuz region. A total of 105 central pivot irrigation systems were built.  Within the framework of the project, the construction of internal roads was also carried out by us."
+            "scope": "31.1 km (DN800-DN1700) steel pipe line and 122.1 km (DN200-DN500) polyethylene pipe (HDPE) line have been laid for the purpose of irrigating agricultural fields in Tovuz region. Total of 105 central pivot irrigation systems were constructed. Within the framework of the project, the construction of internal roads was also carried out."
         },
         "37": {
             "name": "Shahdag Hotel, Villas, Staff Accomodation",
@@ -254,7 +254,7 @@
             "name": "Dinamo Hotel",
             "location": "Baku / Azerbaijan",
             "client": "“Pasha Construction” LLC",
-            "scope": "Mechanical, electrical and plumbing works have been completed within the project"
+            "scope": "Mechanical, electrical and plumbing works have been completed within the project."
         },
         "39": {
             "name": "Aquatic Center Parkland",
@@ -264,9 +264,9 @@
         },
         "40": {
             "name": "Reconstruction of water supply and sewerage system of Qakh",
-            "location": "Baku / Azerbaijan",
+            "location": "Qakh / Azerbaijan",
             "client": "“Azersu” OJSC",
-            "scope": "The construction of a 2,000 m3/day wastewater treatment facility has been completed. Biologically treated wastewater is passed through a UV-disinfection device and neutralized before being released into nature."
+            "scope": "The construction of a 2,000 m3/day wastewater treatment facility has been completed. Biologically treated wastewater passes through a UV-disinfection device and is neutralized before being released into nature."
         },
         "41": {
             "name": "Tovuz Road Construction",
@@ -278,7 +278,7 @@
             "name": "Volkswagen Center Baku",
             "location": "Baku / Azerbaijan",
             "client": "Volkswagen Bakı",
-            "scope": "The construction of the Volkswagen sales center with an area of 3,021 m2 has been completed on the basis of a turnkey contract."
+            "scope": "Construction of the Volkswagen sales center with an area of 3,021 m2 has been completed on the basis of a turnkey contract."
         },
         "43": {
             "name": "Atelier Boutique and Vivanda",
@@ -296,13 +296,13 @@
             "name": "Hajigabul Pump Station",
             "location": "Hajigabul / Azerbaijan",
             "client": "“Agro Dairy” ASC",
-            "scope": "The project included the construction of a pump station building with an area of 4,500 m2."
+            "scope": "The project includes the construction of a pump station building with an area of 4,500 m2."
         },
         "46": {
             "name": "Bravo Supermarket Chain",
             "location": "Baku / Azerbaijan",
             "client": "“Azerbaijan Supermarket” LLC",
-            "scope": "11 supermarkets and more than 50 express markets have been built and handed over"
+            "scope": "11 supermarkets and more than 50 express markets have been built and handed over."
         },
         "47": {
             "name": "McDonald’s Chain",
@@ -314,13 +314,13 @@
             "name": "Bravo Superstore Shamkir",
             "location": "Shamkir / Azərbaycan",
             "client": "“Azerbaijan Supermarket” MMC",
-            "scope": "The construction of the supermarket with a total construction area of 8,500 m2 was completed under a turnkey contract."
+            "scope": "Construction of the supermarket with total construction area of 8,500 m2 was completed under a turnkey contract."
         },
         "49": {
             "name": "Drilling of subartezian and artezian wells in 38 cities and regions of Azerbaijan Republic",
             "location": "Azərbaycan",
-            "client": "",
-            "scope": "Within the framework of the project, 185 subartesian and 15 artesian wells were drilled in 177 locations. The diameters of the wells are 168 mm, 219 mm and 273 mm, and the drilling depths vary from 120 to 350 meters."
+            "client": "“Azerbaijan Amelioration and Water Farm” OJSC",
+            "scope": "Within the framework of the project 185 subartesian and 15 artesian wells were drilled in 177 locations. Diameters of the wells are 168 mm, 219 mm and 273 mm, and drilling depths vary from 120 to 350 meters."
         }
     }
 }
