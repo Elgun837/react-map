@@ -9,10 +9,7 @@ import ButtonModal from "./ButtonModal";
 import { useTranslation } from "react-i18next";
 import i18n from "./i18n";
 
-// Kvadratmetrleri duzeltmek
 //Tarixleri tercume
-// sekilleri duzeltmek
-//Gedebey sekilleri olsa gonderecekler
 const App = () => {
   const { t, i18n } = useTranslation();
   const [activeLanguage, setActiveLanguage] = useState(
@@ -55,7 +52,7 @@ const App = () => {
       scope: t("project.2.scope"),
     },
     {
-      id: 3,  
+      id: 3,
       position: { lat: 39.61428877292762, lng: 47.15580781011356 },
       info: t("project.3.name"),
       locate: t("project.3.location"),
@@ -71,7 +68,7 @@ const App = () => {
       scope: t("project.3.scope"),
     },
     {
-      id: 4, 
+      id: 4,
       position: { lat: 39.6411691963279, lng: 46.541586037953714 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
@@ -91,7 +88,7 @@ const App = () => {
       scope: t("project.4.scope"),
     },
     {
-      id: 442, 
+      id: 442,
       position: { lat: 39.98670513514073, lng: 45.79701172538381 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
@@ -110,7 +107,7 @@ const App = () => {
       scope: t("project.4.scope3"),
     },
     {
-      id: 443, 
+      id: 443,
       position: { lat: 40.23230747582256, lng: 46.16905230163727 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
@@ -360,7 +357,7 @@ const App = () => {
     {
       id: 171,
       position: { lat: 40.34609412356789, lng: 46.963374906747084 },
-      
+
       info: t("project.171.name"),
       locate: t("project.171.location"),
       customer: t("project.171.client"),
@@ -937,7 +934,7 @@ const App = () => {
   const [btns, setBtns] = useState([
     {
       id: 46,
-      
+
       info: t("project.46.name"),
       locate: t("project.46.location"),
       customer: t("project.46.client"),
@@ -948,7 +945,7 @@ const App = () => {
       year: "2017-2022",
       class: "aze",
       scope: t("project.46.scope"),
-      logo: "./images/projects/Bravosuper/bravo-logo.png"
+      logo: "./images/projects/Bravosuper/bravo-logo.png",
     },
     {
       id: 47,
@@ -957,42 +954,48 @@ const App = () => {
       locate: t("project.47.location"),
       customer: t("project.47.client"),
       images: [
-        "./images/projects/subart/1.webp",
-        "./images/projects/subart/2.webp",
-        "./images/projects/subart/3.webp",
-        "./images/projects/subart/4.webp",
-        "./images/projects/subart/5.webp",
-        "./images/projects/subart/6.webp",
-        "./images/projects/subart/7.webp",
-        "./images/projects/subart/8.webp",
-        "./images/projects/subart/9.webp",
-        "./images/projects/subart/1).webp",
-        "./images/projects/subart/1).webp",
-        "./images/projects/subart/1).webp",
-        "./images/projects/subart/1).webp",
-        "./images/projects/subart/1).webp",
-        "./images/projects/subart/1).webp",
+        "./images/projects/Mcdonalds/mc(1).webp",
+        "./images/projects/Mcdonalds/mc(2).webp",
+        "./images/projects/Mcdonalds/mc(3).webp",
+        "./images/projects/Mcdonalds/mc(4).webp",
+        "./images/projects/Mcdonalds/mc(5).webp",
+        "./images/projects/Mcdonalds/mc(6).webp",
+        "./images/projects/Mcdonalds/mc(7).webp",
+        "./images/projects/Mcdonalds/mc(8).webp",
+        "./images/projects/Mcdonalds/mc(9).webp",
+        "./images/projects/Mcdonalds/mc(10).webp",
+        "./images/projects/Mcdonalds/mc(11).webp",
+        "./images/projects/Mcdonalds/mc(12).webp",
+        "./images/projects/Mcdonalds/mc(13).webp",
+        "./images/projects/Mcdonalds/mc(14).webp",
+        "./images/projects/Mcdonalds/mc(15).webp",
       ],
-      year: "2020-2021",
+      year:
+        activeLanguage === "en"
+          ? "2011-present"
+          : activeLanguage === "ru"
+          ? "2011-настоящее время"
+          : "2011-indiyədək",
       class: "aze",
       scope: t("project.47.scope"),
-      logo:"./images/projects/Mcdonalds/mc-logo.png"
+      logo: "./images/projects/Mcdonalds/mc-logo.png",
     },
     {
       id: 49,
-      
+
       info: t("project.49.name"),
       locate: t("project.49.location"),
       customer: t("project.49.client"),
       images: [
-        "./images/projects/Mcdonalds/mc(1).webp",
-        "./images/projects/Mcdonalds/mc(2).webp",
-        "./images/projects/Mcdonalds/mc(3).webp",
+        "./images/projects/Subart/1.webp",
+        "./images/projects/subart/2.webp",
+        "./images/projects/subart/3.webp",
+        "./images/projects/subart/4.webp",
       ],
       year: "2021-2023",
       class: "aze",
       scope: t("project.49.scope"),
-      logo:"./images/projects/Mcdonalds/mc-logo.png"
+      logo: "./images/projects/Mcdonalds/mc-logo.png",
     },
   ]);
   useEffect(() => {
@@ -1003,6 +1006,14 @@ const App = () => {
         locate: t(`project.${marker.id}.location`),
         customer: t(`project.${marker.id}.client`),
         scope: t(`project.${marker.id}.scope`),
+        year:
+          marker.id === 21
+            ? activeLanguage === "en"
+              ? `Phase I: 2015-2016. \nPhase II: 2019-2020`
+              : activeLanguage === "ru"
+              ? `Фаза I: 2015-2016 гг. \nФаза II: 2019-2020 гг.`
+              : `1-ci mərhələ: 2015-2016. \n2-ci mərhələ: 2019-2020`
+            : marker.year,
       }))
     );
   }, [t]);
@@ -1014,6 +1025,14 @@ const App = () => {
         locate: t(`project.${btn.id}.location`),
         customer: t(`project.${btn.id}.client`),
         scope: t(`project.${btn.id}.scope`),
+        year:
+          btn.id === 47
+            ? activeLanguage === "en"
+              ? "2011-present"
+              : activeLanguage === "ru"
+              ? "2011-настоящее время"
+              : "2011-indiyədək"
+            : btn.year,
       }))
     );
   }, [t]);
@@ -1108,7 +1127,8 @@ const App = () => {
         <div className="btn_info">
           {btns.map((button) => (
             <button key={button.id} onClick={() => handleButtonClick(button)}>
-              <img src={button.logo} />{button.info}
+              <img src={button.logo} />
+              {button.info}
             </button>
           ))}
         </div>
@@ -1146,7 +1166,6 @@ const App = () => {
                       markerInfo={selectedMarker}
                       onClose={handleOverlayClose}
                     />
-                   
                   </>
                 )}
                 {isOverlay2Visible && (
