@@ -946,7 +946,7 @@ const App = () => {
   const [btns, setBtns] = useState([
     {
       id: 46,
-      position: { lat: 40.4590541, lng: 49.9506153 },
+      
       info: t("project.46.name"),
       locate: t("project.46.location"),
       customer: t("project.46.client"),
@@ -986,6 +986,22 @@ const App = () => {
       class: "aze",
       scope: t("project.47.scope"),
       logo:"./images/projects/Mcdonalds/mc-logo.png"
+    },
+    {
+      id: 49,
+      
+      info: t("project.49.name"),
+      locate: t("project.49.location"),
+      customer: t("project.49.client"),
+      images: [
+        "./images/projects/Mcdonalds/mc(1).webp",
+        "./images/projects/Mcdonalds/mc(2).webp",
+        "./images/projects/Mcdonalds/mc(3).webp",
+      ],
+      year: "2021-2023",
+      class: "aze",
+      scope: t("project.49.scope"),
+      logo:""
     },
   ]);
   useEffect(() => {
