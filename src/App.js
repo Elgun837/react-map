@@ -957,7 +957,7 @@ const App = () => {
       year: "2017-2022",
       class: "aze",
       scope: t("project.46.scope"),
-      logo: "./images/projects/Bravosuper/bravo-logo.jpg"
+      logo: "./images/projects/Bravosuper/bravo-logo.png"
     },
     {
       id: 47,
