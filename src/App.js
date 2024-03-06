@@ -3,7 +3,9 @@ import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import { MarkerClusterer } from "@react-google-maps/api";
 import "./App.css";
 import Overlay from "./Overlay";
+import Overlay2 from "./Overlay2";
 import Modal from "./Modal";
+import ButtonModal from "./ButtonModal";
 import { useTranslation } from "react-i18next";
 import i18n from "./i18n";
 const App = () => {
@@ -64,7 +66,7 @@ const App = () => {
       scope: t("project.3.scope"),
     },
     {
-      id: 4, 
+      id: 4,
       position: { lat: 39.645629237795184, lng: 47.16648182069096 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
@@ -84,7 +86,7 @@ const App = () => {
       scope: t("project.4.scope1"),
     },
     {
-      id: 442, 
+      id: 442,
       position: { lat: 39.98695174584499, lng: 45.79696344907655 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
@@ -104,7 +106,7 @@ const App = () => {
       scope: t("project.4.scope3"),
     },
     {
-      id: 443, 
+      id: 443,
       position: { lat: 40.23263101014626, lng: 46.16896780490018 },
       info: t("project.4.name"),
       locate: t("project.4.location"),
@@ -123,7 +125,7 @@ const App = () => {
       class: "aze",
       scope: t("project.4.scope3"),
     },
-    { 
+    {
       id: 5,
       position: { lat: 39.59900787155956, lng: 47.1517612168928 },
       info: t("project.5.name"),
@@ -173,7 +175,7 @@ const App = () => {
       scope: t("project.7.scope"),
     },
     {
-      id: 8, 
+      id: 8,
       position: { lat: 40.37898598659498, lng: 49.89259235092345 },
       info: t("project.8.name"),
       locate: t("project.8.location"),
@@ -189,7 +191,7 @@ const App = () => {
       scope: t("project.8.scope"),
     },
     {
-      id: 9, 
+      id: 9,
       position: { lat: 40.67714695742388, lng: 46.35947955276103 },
       info: t("project.9.name"),
       locate: t("project.9.location"),
@@ -223,7 +225,7 @@ const App = () => {
       scope: t("project.10.scope"),
     },
     {
-      id: 11, 
+      id: 11,
       position: { lat: 40.376470414365556, lng: 49.860023064417646 },
       info: t("project.11.name"),
       locate: t("project.11.location"),
@@ -240,7 +242,7 @@ const App = () => {
       class: "aze",
       scope: t("project.11.scope"),
     },
-    { 
+    {
       id: 12,
       position: { lat: 39.558785632940626, lng: 48.95781749091479 },
       info: t("project.12.name"),
@@ -255,7 +257,7 @@ const App = () => {
       class: "aze",
       scope: t("project.12.scope"),
     },
-    // { 
+    // {
     //   id: 13,
     //   position: { lat: 40.37556931371039, lng: 49.86176592024127 },
     //   info: t("project.13.name"),
@@ -271,7 +273,7 @@ const App = () => {
     //   class: "aze",
     //   scope: t("project.13.scope"),
     // },
-    { 
+    {
       id: 14,
       position: { lat: 41.63259893027135, lng: 48.68695888045524 },
       info: t("project.14.name"),
@@ -291,7 +293,7 @@ const App = () => {
       scope: t("project.14.scope"),
     },
     {
-      id: 15, 
+      id: 15,
       position: { lat: 40.48953672721525, lng: 49.89136050462344 },
       info: t("project.15.name"),
       locate: t("project.15.location"),
@@ -326,7 +328,7 @@ const App = () => {
       class: "aze",
       scope: t("project.16.scope"),
     },
-    { 
+    {
       id: 17,
       position: { lat: 40.56970064779442, lng: 45.82760563628342 },
       info: t("project.17.name"),
@@ -351,9 +353,8 @@ const App = () => {
       year: "2019-2021",
       class: "aze",
       scope: t("project.17.scope"),
-      
     },
-    { 
+    {
       id: 171,
       position: { lat: 41.11178983518362, lng: 45.384452093252904 },
       info: t("project.171.name"),
@@ -379,7 +380,7 @@ const App = () => {
       class: "aze",
       scope: t("project.17.scope"),
     },
-    { 
+    {
       id: 172,
       position: { lat: 40.34609412356789, lng: 46.963374906747084 },
       info: t("project.172.name"),
@@ -405,7 +406,7 @@ const App = () => {
       class: "aze",
       scope: t("project.17.scope"),
     },
-    { 
+    {
       id: 18,
       position: { lat: 40.375243558330524, lng: 49.94454148786151 },
       info: t("project.18.name"),
@@ -422,7 +423,7 @@ const App = () => {
       class: "aze",
       scope: t("project.18.scope"),
     },
-    { 
+    {
       id: 19,
       position: { lat: 40.37797597309227, lng: 49.86323530678441 },
       info: t("project.19.name"),
@@ -457,7 +458,7 @@ const App = () => {
       class: "aze",
       scope: t("project.20.scope"),
     },
-    { 
+    {
       id: 21,
       position: { lat: 40.30864649136873, lng: 49.75030418793617 },
       info: t("project.21.name"),
@@ -527,7 +528,7 @@ const App = () => {
       class: "aze",
       scope: t("project.24.scope"),
     },
-    { 
+    {
       id: 25,
       position: { lat: 42.43530035070587, lng: 18.596848488955906 },
       info: t("project.25.name"),
@@ -591,7 +592,7 @@ const App = () => {
       class: "aze",
       scope: t("project.27.scope"),
     },
-    { 
+    {
       id: 28,
       position: { lat: 40.354050232031305, lng: 49.83365164126698 },
       info: t("project.28.name"),
@@ -634,7 +635,7 @@ const App = () => {
       scope: t("project.29.scope"),
     },
     {
-      id: 30, 
+      id: 30,
       position: { lat: 40.40159637756139, lng: 49.81081524480906 },
       info: t("project.30.name"),
       locate: t("project.30.location"),
@@ -674,7 +675,7 @@ const App = () => {
       scope: t("project.32.scope"),
     },
     {
-      id: 32,  
+      id: 32,
       position: { lat: 40.132357546533676, lng: 48.844474155824 },
       info: t("project.32.name"),
       locate: t("project.32.location"),
@@ -776,7 +777,6 @@ const App = () => {
       year: "2015-2016",
       class: "aze",
       scope: t("project.37.scope"),
-
     },
     {
       id: 38,
@@ -888,7 +888,7 @@ const App = () => {
       class: "aze",
       scope: t("project.43.scope"),
     },
-    { 
+    {
       id: 44,
       position: { lat: 40.36907730623793, lng: 49.83735086390374 },
       info: t("project.44.name"),
@@ -907,7 +907,7 @@ const App = () => {
       scope: t("project.44.scope"),
     },
     {
-      id: 45, 
+      id: 45,
       position: { lat: 40.156178137314846, lng: 48.84240532849617 },
       info: t("project.45.name"),
       locate: t("project.45.location"),
@@ -924,16 +924,40 @@ const App = () => {
       class: "aze",
       scope: t("project.45.scope"),
     },
+
+    {
+      id: 48,
+      position: { lat: 40.853556055684564, lng: 46.03143003927516 },
+      info: t("project.48.name"),
+      locate: t("project.48.location"),
+      customer: t("project.48.client"),
+      images: [
+        "./images/projects/shamkir/1.jpg",
+        "./images/projects/shamkir/2.jpg",
+        "./images/projects/shamkir/3.jpg",
+        "./images/projects/shamkir/4.jpg",
+      ],
+      year: "2011-2024",
+      class: "aze",
+      scope: t("project.47.scope"),
+    },
+  ]);
+
+  const [btns, setBtns] = useState([
     {
       id: 46,
       position: { lat: 40.4590541, lng: 49.9506153 },
       info: t("project.46.name"),
       locate: t("project.46.location"),
       customer: t("project.46.client"),
-      images: ["./images/projects/Bravosuper/bravo.webp"],
+      images: [
+        "./images/projects/Bravosuper/bravo.webp",
+        "./images/projects/Bravosuper/bravo.webp",
+      ],
       year: "2017-2022",
       class: "aze",
       scope: t("project.46.scope"),
+      logo: "./images/projects/Bravosuper/bravo-logo.jpg"
     },
     {
       id: 47,
@@ -961,25 +985,9 @@ const App = () => {
       year: "2011-2024",
       class: "aze",
       scope: t("project.47.scope"),
-    },
-    {
-      id: 48, 
-      position: { lat: 40.853556055684564, lng: 46.03143003927516 },
-      info: t("project.48.name"),
-      locate: t("project.48.location"),
-      customer: t("project.48.client"),
-      images: [
-        "./images/projects/shamkir/1.jpg",
-        "./images/projects/shamkir/2.jpg",
-        "./images/projects/shamkir/3.jpg",
-        "./images/projects/shamkir/4.jpg"
-      ],
-      year: "2011-2024",
-      class: "aze",
-      scope: t("project.47.scope"),
+      logo:"./images/projects/Mcdonalds/mc-logo.png"
     },
   ]);
-
   useEffect(() => {
     setMarkers((prevMarkers) =>
       prevMarkers.map((marker) => ({
@@ -988,6 +996,17 @@ const App = () => {
         locate: t(`project.${marker.id}.location`),
         customer: t(`project.${marker.id}.client`),
         scope: t(`project.${marker.id}.scope`),
+      }))
+    );
+  }, [t]);
+  useEffect(() => {
+    setBtns((prevBtns) =>
+      prevBtns.map((btn) => ({
+        ...btn,
+        info: t(`project.${btn.id}.name`),
+        locate: t(`project.${btn.id}.location`),
+        customer: t(`project.${btn.id}.client`),
+        scope: t(`project.${btn.id}.scope`),
       }))
     );
   }, [t]);
@@ -1002,8 +1021,8 @@ const App = () => {
     styles: [
       {
         textColor: "black",
-        url: "/images/holder.svg", 
-        height: window.innerWidth < 2000 ? 24 : 100, 
+        url: "/images/holder.svg",
+        height: window.innerWidth < 2000 ? 24 : 100,
         width: window.innerWidth < 2000 ? 24 : 100,
       },
     ],
@@ -1013,10 +1032,18 @@ const App = () => {
     setSelectedMarker(marker);
     setOverlayVisible(true);
   };
+  const handleButtonClick = (btn) => {
+    setOverlay2Visible(true);
+    setSelectedBtn(btn);
+  };
 
   const handleOverlayClose = () => {
     setSelectedMarker(null);
     setOverlayVisible(false);
+  };
+  const handleOverlay2Close = () => {
+    setSelectedBtn(null);
+    setOverlay2Visible(false);
   };
 
   const defaultCenter = {
@@ -1026,7 +1053,9 @@ const App = () => {
 
   const [center, setCenter] = useState(defaultCenter);
   const [isOverlayVisible, setOverlayVisible] = useState(false);
+  const [isOverlay2Visible, setOverlay2Visible] = useState(false);
   const [selectedMarker, setSelectedMarker] = useState(null);
+  const [selectedBtn, setSelectedBtn] = useState(null);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -1044,7 +1073,7 @@ const App = () => {
       if (buttonLanguage === activeLanguage) {
         button.style.backgroundColor = "#68A99B";
       } else {
-        button.style.backgroundColor = ""; 
+        button.style.backgroundColor = "";
       }
     });
   }, [activeLanguage]);
@@ -1067,17 +1096,15 @@ const App = () => {
         src={process.env.PUBLIC_URL + "/images/logo.svg"}
         alt="Logo"
       />
-      
+
       <div className="btn_info">
-        <button >
-          Bravo
-        </button>
-        <button >
-          Mcdonalds
-        </button>
-        <button >
-          Subartezian
-        </button>
+        <div className="btn_info">
+          {btns.map((button) => (
+            <button key={button.id} onClick={() => handleButtonClick(button)}>
+              <img src={button.logo} />{button.info}
+            </button>
+          ))}
+        </div>
       </div>
       <LoadScript googleMapsApiKey="AIzaSyAlPbyceaWa75wtjv7U4etyl0I-R2Tdmdw">
         <GoogleMap
@@ -1097,7 +1124,7 @@ const App = () => {
                       url: "./Vector.svg",
                       scaledSize: new window.google.maps.Size(
                         window.innerWidth < 2000 ? 36 : 124, // Set the desired height
-                        window.innerWidth < 2000 ? 36 : 124  // Set the desired width
+                        window.innerWidth < 2000 ? 36 : 124 // Set the desired width
                       ),
                     }}
                     onClick={() => handleMarkerClick(marker)}
@@ -1111,6 +1138,16 @@ const App = () => {
                     <Modal
                       markerInfo={selectedMarker}
                       onClose={handleOverlayClose}
+                    />
+                   
+                  </>
+                )}
+                {isOverlay2Visible && (
+                  <>
+                    <Overlay2 onClose={handleOverlay2Close} />
+                    <ButtonModal
+                      ButtonInfo={selectedBtn}
+                      onClose={handleOverlay2Close}
                     />
                   </>
                 )}

@@ -173,6 +173,9 @@ background-color: #F5F5F5;
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 background-color: #bc5777;
 }
+.btn_info button img {
+  height: 40px;
+}
 @media (min-width:6200px){
   .language_change button{
     padding:1.5rem;
