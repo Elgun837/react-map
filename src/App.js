@@ -936,11 +936,12 @@ const App = () => {
       id: 46,
 
       info: t("project.46.name"),
+      btnName: t("project.46.btnName"),
       locate: t("project.46.location"),
       customer: t("project.46.client"),
       images: [
-        "./images/projects/Bravosuper/bravo.webp",
-        "./images/projects/Bravosuper/bravo.webp",
+        "./images/projects/Bravosuper/bravo1.webp",
+        "./images/projects/Bravosuper/bravo2.webp",
       ],
       year: "2017-2022",
       class: "aze",
@@ -949,8 +950,8 @@ const App = () => {
     },
     {
       id: 47,
-      position: { lat: 40.3790541, lng: 49.8406153 },
       info: t("project.47.name"),
+      btnName: t("project.47.btnName"),
       locate: t("project.47.location"),
       customer: t("project.47.client"),
       images: [
@@ -982,8 +983,8 @@ const App = () => {
     },
     {
       id: 49,
-
       info: t("project.49.name"),
+      btnName: t("project.49.btnName"),
       locate: t("project.49.location"),
       customer: t("project.49.client"),
       images: [
@@ -1022,6 +1023,7 @@ const App = () => {
       prevBtns.map((btn) => ({
         ...btn,
         info: t(`project.${btn.id}.name`),
+        btnName: t(`project.${btn.id}.btnName`),
         locate: t(`project.${btn.id}.location`),
         customer: t(`project.${btn.id}.client`),
         scope: t(`project.${btn.id}.scope`),
@@ -1128,7 +1130,7 @@ const App = () => {
           {btns.map((button) => (
             <button key={button.id} onClick={() => handleButtonClick(button)}>
               <img src={button.logo} />
-              {button.info}
+              {button.btnName}
             </button>
           ))}
         </div>

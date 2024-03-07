@@ -300,12 +300,14 @@
         },
         "46": {
             "name": "Bravo Supermarket Chain",
+            "btnName":"Bravo Supermarket Chain",
             "location": "Baku / Azerbaijan",
             "client": "“Azerbaijan Supermarket” LLC",
             "scope": "11 supermarkets and more than 50 express markets have been built and handed over."
         },
         "47": {
             "name": "McDonald’s Chain",
+            "btnName":"McDonald’s Chain",
             "location": "Baku / Azerbaijan",
             "client": "McDonald's Azerbaijan",
             "scope": "Within the project,  all construction works including internal finishing, mechanical, electrical works, facade works in 16 McDonalds Azerbaijan branches such as Ganjlik Mall, Ahmedli, Ganja Mall, 28 Mall, Targovi, Sahil, Velotrek, Oazis, Airport, Park Bulvar, Rose Garden, Amburan Mall, Deniz Mall, Sumgayit, Park Bulvar, Memar Ajami have been carried out."
@@ -318,6 +320,7 @@
         },
         "49": {
             "name": "Drilling of subartezian and artezian wells in 38 cities and regions of Azerbaijan Republic",
+            "btnName":"Subartezian and artezian wells",
             "location": "Azərbaycan",
             "client": "“Azerbaijan Amelioration and Water Farm” OJSC",
             "scope": "Within the framework of the project 185 subartesian and 15 artesian wells were drilled in 177 locations. Diameters of the wells are 168 mm, 219 mm and 273 mm, and drilling depths vary from 120 to 350 meters."
