@@ -996,7 +996,7 @@ const App = () => {
       year: "2021-2023",
       class: "aze",
       scope: t("project.49.scope"),
-      logo: "./images/projects/Mcdonalds/mc-logo.png",
+      logo: "./images/projects/Subart/sub-logo.png",
     },
   ]);
   useEffect(() => {
