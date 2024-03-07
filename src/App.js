@@ -1007,10 +1007,10 @@ const App = () => {
         year:
           marker.id === 21
             ? activeLanguage === "en"
-              ? `Phase I: 2015-2016. \nPhase II: 2019-2020`
+              ? `Phase I: 2015-2016. \n\n\n\n\nPhase II: 2019-2020`
               : activeLanguage === "ru"
-              ? `Фаза I: 2015-2016 гг. \nФаза II: 2019-2020 гг.`
-              : `1-ci mərhələ: 2015-2016. \n2-ci mərhələ: 2019-2020`
+              ? `Фаза I: 2015-2016 гг. \n\n\n\nФаза II: 2019-2020 гг.`
+              : `1-ci mərhələ: 2015-2016. \n\n\n\n\n\n2-ci mərhələ: 2019-2020`
             : marker.year,
       }))
     );
