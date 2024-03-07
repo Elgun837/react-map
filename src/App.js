@@ -352,6 +352,7 @@ const App = () => {
       customer: t("project.171.client"),
       images: [
         "./images/projects/terter/gedebey(1).webp",
+        "./images/projects/terter/gedebey(2).webp",
         "./images/projects/terter/gedebey(4).webp",
         "./images/projects/terter/gedebey(5).webp",
         "./images/projects/terter/gedebey(6).webp",
