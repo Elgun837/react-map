@@ -390,6 +390,7 @@ const App = () => {
         "./images/projects/qazax/3.webp",
         "./images/projects/qazax/4.webp",
         "./images/projects/qazax/5.webp",
+        "./images/projects/qazax/6.webp",
       ],
       year: "2019-2021",
       class: "aze",
