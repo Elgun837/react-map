@@ -227,4 +227,15 @@ h3 {
   .custom-cluster-icon div {
     font-size: 55px !important;
   }
+  .btn_info{
+    top: 40%;
+  }
+  .btn_info button {
+    gap: 1rem;
+    font-size: 3rem;
+}
+
+.btn_info button img {
+    height: 10rem;
+}
 }
