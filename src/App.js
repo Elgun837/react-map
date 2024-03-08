@@ -911,7 +911,7 @@ const App = () => {
         "./images/projects/shamkir/3.jpg",
         "./images/projects/shamkir/4.jpg",
       ],
-      year: "2021-2024",
+      year: "2020-2021",
       class: "aze",
       scope: t("project.47.scope"),
     },
