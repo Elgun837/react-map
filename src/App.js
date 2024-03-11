@@ -1032,8 +1032,8 @@ const App = () => {
   }, [t]);
 
   const mapContainerStyle = {
-    width: "100vw",
-    height: "100vh",
+    width: "1024px",
+    height: "600px",
   };
 
   const clusterOptions = {
@@ -1042,8 +1042,8 @@ const App = () => {
       {
         textColor: "black",
         url: "/images/holder.svg",
-        height: window.innerWidth < 2000 ? 24 : 100,
-        width: window.innerWidth < 2000 ? 24 : 100,
+        height: window.innerWidth < 2000 ? 18 : 100,
+        width: window.innerWidth < 2000 ? 18 : 100,
       },
     ],
   };
@@ -1131,7 +1131,7 @@ const App = () => {
         <GoogleMap
           mapContainerStyle={mapContainerStyle}
           center={center}
-          zoom={7}
+          zoom={3}
           mapTypeId="satellite"
         >
           <MarkerClusterer options={clusterOptions}>
@@ -1144,8 +1144,8 @@ const App = () => {
                     icon={{
                       url: "./Vector.svg",
                       scaledSize: new window.google.maps.Size(
-                        window.innerWidth < 2000 ? 36 : 124, // Set the desired height
-                        window.innerWidth < 2000 ? 36 : 124 // Set the desired width
+                        window.innerWidth < 2000 ? 30 : 124, // Set the desired height
+                        window.innerWidth < 2000 ? 30 : 124 // Set the desired width
                       ),
                     }}
                     onClick={() => handleMarkerClick(marker)}
