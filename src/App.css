@@ -276,7 +276,7 @@ h3 {
 
 .logo_absolute {
     width: 310px;
-  bottom:40%;
+  bottom:25%;
 }
 .btn_info{
   width: 400px;
@@ -326,5 +326,5 @@ font-size:50px;}
   top:10%;
 }
 logo_absolute {
-  bottom:30%;
+  bottom:25%;
 }
