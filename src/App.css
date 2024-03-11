@@ -280,10 +280,10 @@ h3 {
   width: 400px;
 }
 .right_container p{
-    font-size:16px;
+    font-size:24px;
   }
   .right_container h3{
-    font-size:18px;
+    font-size:28px;
   }
 .overlay {
   position: fixed;
@@ -305,4 +305,12 @@ h3 {
   width: 2457px;
   height: 1843px;
   overflow: hidden;
+}
+body{
+position:relative;
+width:3072px;
+  height:2304px;
+}
+.btn_info button img {
+  height: 60px;
 }
