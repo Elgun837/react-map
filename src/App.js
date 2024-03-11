@@ -1144,8 +1144,8 @@ const App = () => {
                     icon={{
                       url: "./Vector.svg",
                       scaledSize: new window.google.maps.Size(
-                        window.innerWidth < 2000 ? 30 : 100, // Set the desired height
-                        window.innerWidth < 2000 ? 30 : 100 // Set the desired width
+                        window.innerWidth < 2000 ? 30 : 72, // Set the desired height
+                        window.innerWidth < 2000 ? 30 : 72 // Set the desired width
                       ),
                     }}
                     onClick={() => handleMarkerClick(marker)}
