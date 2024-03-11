@@ -1,3 +1,8 @@
+#root{
+position:relative;
+width:3072px;
+  height:2304px;
+}
 .overlay {
   position: fixed;
   top: 0;
