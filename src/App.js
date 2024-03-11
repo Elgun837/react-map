@@ -1117,7 +1117,7 @@ const App = () => {
         alt="Logo"
       />
 
-      <div className="btn_info">
+      <div className="btn_information">
         <div className="btn_info">
           {btns.map((button) => (
             <button key={button.id} onClick={() => handleButtonClick(button)}>
