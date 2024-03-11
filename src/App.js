@@ -1131,7 +1131,7 @@ const App = () => {
         <GoogleMap
           mapContainerStyle={mapContainerStyle}
           center={center}
-          zoom={6}
+          zoom={5}
           mapTypeId="satellite"
         >
           <MarkerClusterer options={clusterOptions}>
