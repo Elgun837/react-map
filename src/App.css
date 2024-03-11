@@ -241,3 +241,12 @@ h3 {
     height: 10rem;
 }
 }
+@media (max-width:1200px){
+  .btn_info{
+    width:48%;
+  }
+  .modal{
+    width:70vw;
+    height:50vh;
+  }
+}
