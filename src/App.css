@@ -250,16 +250,16 @@ h3 {
     width:auto;
   }
   .btn_info button {
-    font-size: 11px;
+    font-size: 9px;
 }
   .modal{
    height: 70vh;
     width: 80vw;
   }
   .right_container p{
-    font-size:12px;
+    font-size:9px;
   }
   .right_container h3{
-    font-size:14px;
+    font-size:11px;
   }
 }
