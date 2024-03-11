@@ -186,7 +186,7 @@ h3 {
 .btn_info button img {
   height: 40px;
 }
-@media (min-width: 6200px) {
+@media (min-width: 2500px) {
   .language_change button {
     padding: 1.5rem;
     border-radius: 1.5rem;
@@ -235,7 +235,7 @@ h3 {
     font-size: 55px !important;
   }
   .btn_info{
-    top: 40%;
+    top: 50%;
   }
   .btn_info button {
     gap: 1rem;
