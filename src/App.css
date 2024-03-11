@@ -316,10 +316,13 @@ width:3072px;
   height: 60px;
 }
 logo_absolute {
-  bottom:20%;
+  bottom:40%;
 }
 .custom-cluster-icon div {
     font-size: 15px !important;
   }
 button.popup_close {
 font-size:50px;}
+.language_change{
+  top:5%;
+}
