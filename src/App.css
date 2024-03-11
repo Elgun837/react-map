@@ -235,6 +235,9 @@ h3 {
     font-size: 55px !important;
   }
   .btn_info{
+    width:15%;
+  }
+  .btn_info{
     top: 50%;
   }
   .btn_info button {
