@@ -1032,8 +1032,8 @@ const App = () => {
   }, [t]);
 
   const mapContainerStyle = {
-    width: "10240px",
-    height: "7680px",
+    width: "3072px",
+    height: "2304px",
   };
 
   const clusterOptions = {
