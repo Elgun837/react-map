@@ -186,7 +186,7 @@ h3 {
 .btn_info button img {
   height: 40px;
 }
-@media (min-width: 2500px) {
+/* @media (min-width: 2500px) {
   .language_change button {
     padding: 1.5rem;
     border-radius: 1.5rem;
@@ -248,8 +248,8 @@ h3 {
 .btn_info button img {
     height: 10rem;
 }
-}
-@media (max-width:1200px){
+} */
+/*  @media (max-width:1200px){ 
   .btn_info{
     width:35%;
   }
@@ -270,7 +270,7 @@ h3 {
   .right_container h3{
     font-size:18px;
   }
-}
+} */
 
 
 .logo_absolute {
@@ -285,3 +285,24 @@ h3 {
   .right_container h3{
     font-size:18px;
   }
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 3072px;
+  height: 2304px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 0;
+  z-index: 1001;
+  width: 2457px;
+  height: 1843px;
+  overflow: hidden;
+}
