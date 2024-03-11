@@ -1042,8 +1042,8 @@ const App = () => {
       {
         textColor: "black",
         url: "/images/holder.svg",
-        height: window.innerWidth < 2000 ? 18 : 100,
-        width: window.innerWidth < 2000 ? 18 : 100,
+        height: window.innerWidth < 2000 ? 18 : 72,
+        width: window.innerWidth < 2000 ? 18 : 72,
       },
     ],
   };
