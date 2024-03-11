@@ -1067,7 +1067,7 @@ const App = () => {
   };
 
   const defaultCenter = {
-    lat: 40,
+    lat: 45,
     lng: 40,
   };
 
