@@ -243,10 +243,23 @@ h3 {
 }
 @media (max-width:1200px){
   .btn_info{
-    width:48%;
+    width:35%;
   }
+  .btn_info button img {
+  height:25px;
+    width:auto;
+  }
+  .btn_info button {
+    font-size: 11px;
+}
   .modal{
-    width:70vw;
-    height:50vh;
+   height: 70vh;
+    width: 80vw;
+  }
+  .right_container p{
+    font-size:12px;
+  }
+  .right_container h3{
+    font-size:14px;
   }
 }
