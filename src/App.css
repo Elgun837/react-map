@@ -1,8 +1,3 @@
-#root{
-position:relative;
-width:3072px;
-  height:2304px;
-}
 .overlay {
   position: fixed;
   top: 0;
@@ -174,7 +169,6 @@ h3 {
   line-height: 1.3;
   width: 100%;
   text-align: left;
-  font-size: 26px;
 }
 .right_container::-webkit-scrollbar {
   width: 0.8rem;
@@ -187,7 +181,7 @@ h3 {
 .btn_info button img {
   height: 40px;
 }
-/* @media (min-width: 2500px) {
+@media (min-width: 6200px) {
   .language_change button {
     padding: 1.5rem;
     border-radius: 1.5rem;
@@ -235,96 +229,59 @@ h3 {
   .custom-cluster-icon div {
     font-size: 55px !important;
   }
-  
   .btn_info{
-    top: 50%;
-     width:15%;
+    top: 40%;
   }
-  
   .btn_info button {
     gap: 1rem;
-       font-size: 39px;
+    font-size: 3rem;
 }
 
 .btn_info button img {
     height: 10rem;
 }
-} */
-/*  @media (max-width:1200px){ 
+}
+@media(max-width:768px){
   .btn_info{
-    width:35%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    left: 0;
+    position: absolute;
+    bottom: 3%;
+    top: unset;
+    width:70%;
+    z-index: 99;
   }
-  .btn_info button img {
-  height:25px;
-    width:auto;
+  .btn_info button{
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 0.7rem;
+    display: flex;
+    gap: 0.6rem;
+    line-height: 1.3;
+    margin: 0.4rem;
+    padding: 0.3rem;
+    text-align: left;
+    width: 100%;
   }
-  .btn_info button {
-    font-size: 9px;
+  .btn_info button img{
+    height: 25px;
+  }
+  .main_container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
 }
-  .modal{
-   height: 70vh;
-    width: 80vw;
-  }
-  .right_container p{
-    font-size:16px;
-  }
-  .right_container h3{
-    font-size:18px;
-  }
-} */
-
-
-.logo_absolute {
-    width: 310px;
-  bottom:25%;
+.left_container{
+  width: 100%;
 }
-.btn_info{
-  width: 400px;
+.right_container{
+  width: unset;
+  padding: 10px;
 }
-.right_container p{
-    font-size:28px;
-  }
-  .right_container h3{
-    font-size:33px;
-  }
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 3072px;
-  height: 2304px;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1000;
-}
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: white;
-  padding: 0;
-  z-index: 1001;
-  width: 2000px;
-  height: 1312px;
-  overflow: hidden;
-}
-body{
-position:relative;
-width:3072px;
-  height:2304px;
-}
-.btn_info button img {
-  height: 60px;
+.modal{
+  width: 90vw;
 }
 
-.custom-cluster-icon div {
-    font-size: 15px !important;
-  }
-button.popup_close {
-font-size:50px;}
-.language_change{
-  top:2%;
-}
-logo_absolute {
-  bottom:55%;
 }
