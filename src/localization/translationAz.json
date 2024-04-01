@@ -1,0 +1,329 @@
+{
+    "locate": "Yerləşməsi",
+    "year": "Tikinti müddəti",
+    "company": "Sifarişçi",
+    "works": "İşlərin təsviri",
+    "project": {
+        "1": {
+            "name": "Zabux su anbarından qidalanan magistral boru kəmərinin layihələndirilməsi və tikintisi işləri",
+            "location": "Laçın, Qubadlı, Zəngilan / Azərbaycan",
+            "client": "Azərbaycan Meliorasiya və Su Təsərrüfatı ASC",
+            "scope": "Uzunluğu 51.6 km olan (DN1620-DN1920) metal boru kəməri və ona paralel xidməti yol çəkilərək tamamlanmışdır. Magistral boru kəməri izolyasiya olunmuş 3,817 ədəd qaynaq birləşməsindən ibarətdir. Boruların Ultrasonik testi TUV AVSTRİYA şirkəti tərəfindən aparılmışdır. Layihə Qubadlı və Zəngilan rayonlarında 12100 ha kənd təsərrüfatı sahəsinin suvarılmasını nəzərdə tutur."
+        },
+        "2": {
+            "name": "Mərkəzı Asiya Regional İqtisadi Əməkdaşlıq Təşkilatı  Dəhlizi 2 Qaraqalpaqstan Yol Layihəsi (A380 Kunqrad - Daut-Ata Hissəsi) – 120 km",
+            "location": "Qaraqalpaqstan / Özbəkistan",
+            "client": "Özbəkistan Respublikası Dövlət Yol Komitəsi",
+            "scope": "Özbəkistan Respublikasında 120 km uzunluqda  II kateqoriya beton yolun tikintisini baş podratçı olaraq icra edirik.  A380 beynəlxalq kodlu bu yol Qaraqalpaqstan Muxtar Respublikası ərazisindən keçməklə qonşu Qazaxıstana birləşir və beynəlxalq strateji əhəmiyyətə malik nəqliyyat dəhlizidir. Layihə Asiya İnkişaf Bankı tərəfindən maliyyələşdirilən “CAREC 2” Proqramının tərkib hissəsidir."
+        },
+        "3": {
+            "name": "Ağdam-Füzuli Yolunun Tikintisi (0-32 km)",
+            "location": "Ağdam, Füzuli / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi",
+            "scope": "Layihə Ağdam və Füzuli rayonlarının ərazisindən keçəcək 32.4 km uzunluğunda, 1-ci kateqoriya 4 hərəkət zolaqlı yolun tikintisini əhatə edir.  Tikinti işlərinə dağ yamacının qazılması və müvafiq materialların doldurulması, körpülər,  beton borular, asfalt işləri daxildir."
+        },
+        "4": {
+            "name": "Daşkəsən-Kəlbəcər-Laçin Yolunun Tikintisi (1274 Km)",
+            "location": "Daşkəsən, Kəlbəcər, Laçın / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi və Azərbaycan Respublikası Müdafiə Nazirliyi",
+            "scope": "Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 571 km-i Laçın rayonu ərazisinə düşür."
+        },
+        "442": {
+            "name": "Daşkəsən-Kəlbəcər-Laçin Yolunun Tikintisi (1274 Km)",
+            "location": "Daşkəsən, Kəlbəcər, Laçın / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi və Azərbaycan Respublikası Müdafiə Nazirliyi",
+            "scope": "Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 556 km-i Kəlbəcər  rayonu ərazisinə düşür. "
+        },
+        "443": {
+            "name": "Daşkəsən-Kəlbəcər-Laçin Yolunun Tikintisi (1274 Km)",
+            "location": "Daşkəsən, Kəlbəcər, Laçın / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi və Azərbaycan Respublikası Müdafiə Nazirliyi",
+            "scope": "Layihə Daşkəsən, Kəlbəcər və Laçın rayonlarından keçməklə 1,274 km uzunluğunda 4-cü kateqoriya yolun tikintisini əhatə edir. Yolun 147 km-i Daşkəsən  rayonu ərazisinə düşür."
+        },
+        "5": {
+            "name": "Füzuli Şəhərinin Daxili Yollarının və Kommunikasiya Xətlərinin Tikintisi",
+            "location": "Füzuli / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi",
+            "scope": "Layihə Füzuli şəhərində 18.5 km uzunluğunda daxili yollarn tikintisini əhatə edir.  Layihə çərçivəsində 3,360 m yağış suları xətti və 69 ədəd quyu, 5,567 m içməli su xətti və 11 ədəd hidrant, 19,431 m rabitə xətti və 37 ədəd quyu işləri tamamlanmışdır."
+        },
+        "6": {
+            "name": "Cənubi Al Mutlaa şəhərsalma layihəsi",
+            "location": "Cənubi Al Mutlaa / Küveyt",
+            "client": "Mənzil Təminatı üzrə Dövlət İdarəsi",
+            "scope": "Uzunluğu 49.5 km (DN200-DN600) kanalizasiya xətti, 52.7 km (DN200-DN1400) yağış suları şəbəkəsi və 30.1 km (DN100-DN300) su təchizatı xətti çəkilərək tamamlanmışdır. Layihəyə həmçinin 25.8 km işiqlandırma borularının və 1.4 km elektrik xətlərinin çəkilməsi də daxildir."
+        },
+        "7": {
+            "name": "M3 Ələt-Astara-Iran sərhədi magistral avtomobil yolunun Yenikənd-Biləsuvar (32-ci kilometrdən 103-cü kilometrədək) hissəsinin (mövcud yol oxu) yenidən qurulması",
+            "location": "Salyan, Biləsuvar / Azərbaycan",
+            "client": "Azərbaycan Avtomobil Yolları Dövlət Agentliyi",
+            "scope": "Layihə 71 km uzunluğunda və 2 zolaqdan ibarət olan yolun yenidənqurulması, 6 körpü və digər əlaqəli yol komponentlərinin tikintisini əhatə edir. Layihə Dünya Bankı tərəfindən maliyyələşdirilir və “FIDIC” müqavilə standartı əsasında icra edilir. "
+        },
+        "8": {
+            "name": "Knightsbridge Yaşayış Kompleksi",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Ümumi tikinti sahəsi 55,000 ㎡ -dan çox olan premium tipli yaşayış kompleksdə dəmir - beton işləri, daxili tamamlama və fasad işləri icra edilmişdir."
+        },
+        "9": {
+            "name": "“Gəncə Mall” Ticarət Mərkəzi",
+            "location": "Gəncə / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Gəncə şəhərində yerləşən “Gəncə Mall” Azərbaycanın qərb bölgəsində inşa edilən ilk ticarət və əyləncə mərkəzidir.Toplam sahəsi 54,000 ㎡ olan ticarət mərkəzinin tikintisi açar təslimi müqaviləsi əsasında North West Construction tərəfindən tamamlanmışdır."
+        },
+        "10": {
+            "name": "Ritz Carlton Hotel",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Bakı-XXI Əsr” MMC",
+            "scope": "Ümumi tikinti sahəsi 90,000 ㎡ -dən çox olan binanın daxili dizayn və mühəndislik, fasad, təmir-tamamlama və dəmirbənd işləri həyata keçirilmişdir."
+        },
+        "11": {
+            "name": "Port Baku Residence",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "3 yaşayış binasından və 800 mənzildən ibarət yaşayış kompleksində təmir-tamamlama, mebel və qapıların quraşdırılması və istehsalı işləri şirkətimiz tərəfindən icra edilmişdir."
+        },
+        "12": {
+            "name": "Salyan şəhərinin su təchizatı və kanalizasiya sisteminin yenidən qurulması",
+            "location": "Salyan / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope": "Salyan şəhərində uzunluğu 80 km-dən (DN200-DN800) artıq kanalizasiya xətlərinin inşası nəzərdə tutulmuşdur. Uzunluğu 46 km-dən artıq içməli su xətləri (DN90-DN280) inşa edilmişdir. Həmçinin, 8 km uzunluğunda mikrotunel xətlərinin çəkilməsi və 9 ədəd kollektor xətləri üzərində müxtəlif güclərdə olan nasosxanaların inşası nəzərdə tutulmuşdur. Kanalizasiya xətləri üzrə toplam ev birləşmələrinin sayı 5050 ədəddir. Tikinti işləri davam edir."
+        },
+        "13": {
+            "name": "Port Baku Cənub Qülləsi",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": ""
+        },
+        "14": {
+            "name": "Xudat Çoxfunksiyalı Agrokompleks",
+            "location": "Xudat / Azərbaycan",
+            "client": "“Foodcity Aqropark” MMC",
+            "scope": "Tikinti sahəsi 30,363 ㎡, landşaft ərazisi 100,000 ㎡ olan aqrokompleks açar təslimi müqaviləsi əsasında tamamlanmışdır."
+        },
+        "15": {
+            "name": "Ceyranbatan-Abşeron- Balaxani-Ramana-Zirə- Pirallahi magistral su kəməri və həmin kəmər boyu yerləşən mərkəzi anbarlarin tikintisi işləri",
+            "location": "Abşeron / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope": "10.4 km uzunluğunda magistral xətt (DN1620 mm) və Balaxanı anbar kompleksində hər biri 10,000 m³ olmaqla 4 ədəd su anbarının tikintisini əhatə edir. DN630 - DN2220 metal boruların idarəetmə paylama otaqları içərisində quraşdırılması 900 m təşkil edir. "
+        },
+        "16": {
+            "name": "Mingəçevir şəhərinin su təchizatı və kanalizasiya sisteminin yenidən qurulması",
+            "location": "Mingəçevir / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope": "Mingəçevir şəhərində uzunluğu 90 km-dən (DN200-DN1000) artıq kanalizasiya xətləri yenilənmiş və 1 ədəd kollektor xətti üzərində gücü 360 l/saniyə olan nasosxana tikilmişdir. Həmçinin, 1650 m mikrotunel xətlərinin çəkilməsi nəzərdə tutulmuşdur. Kanalizasiya xətləri üzrə toplam ev birləşmələrinin sayı 7,000 ədəddir. Tikinti işləri davam edir."
+        },
+        "17": {
+            "name": "Gədəbəy şəhərində Tullantı Su Təmizləyici Qurğusunun layihələndirilməsi, təchiz edilməsi və quraşdırılması",
+            "location": "Gədəbəy / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope": "Tullantı sularının təmizlənməsi üçün gücü Gədəbəy TSTQ – 3,500 m3/gün olan qurğunun layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir."
+            },
+        "171": {
+            "name": "Tərtər şəhərində Tullantı Su Təmizləyici Qurğusunun layihələndirilməsi, təchiz edilməsi və quraşdırılması",
+            "location": "Tərtər / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope": "Tullantı sularının təmizlənməsi üçün gücü Tərtər TSTQ – 7,500 m3/gün olan qurğunun layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir."
+        },
+        "172": {
+            "name": "Qazax şəhərində Tullantı Su Təmizləyici Qurğusunun layihələndirilməsi, təchiz edilməsi və quraşdırılması",
+            "location": "Qazax / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope": "Tullantı sularının təmizlənməsi üçün gücü Qazax TSTQ – 10,500 m3/gün olan qurğunun layihələndirilməsi və tikintisi tamamlanmışdır. Layihə beynəlxalq satınalma şərtləri ilə tenderə çıxarılmış, İslam İnkişaf Bankı tərəfindən maliyyələşdirilmişdir."
+        },
+        "18": {
+            "name": "Bravo Əhmədli Hipermarket",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Azerbaijan Supermarket” MMC",
+            "scope": "Tikinti sahəsi 11,000 ㎡, landşaft ərazisi 20,000 ㎡ olan hipermarketin tikintisi açar təslimi müqaviləsi əsasında tamamlanmışdır."
+        },
+        "19": {
+            "name": "Port Baku Garden Walk Way",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Körpü” MMC",
+            "scope": "Tikinti sahəsi 7,500  ㎡, ümumi döşəmə sahəsi 20,000  ㎡ olan binanın dəmir-beton, izolyasiya, elektrik, mexanik, fasad, landşaft və ümumi sahələrin təmir-tamamlama işləri icra edilmişdir."
+        },
+        "20": {
+            "name": "Dəniz Mall Ticarət Mərkəzi",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Toplam tikinti sahəsi 43,000 ㎡ -dən çox olan və Chapman Taylor dizayn şirkəti tərəfindən layihələndirilən 7 mərtəbəli ticarət mərkəzinin mərmər döşəmə, qapılar və daxili tamamlanma işləri şirkətimiz tərəfindən tamamlanmışdır. "
+        },
+        "21": {
+            "name": "Bravo Lökbatan Paylama Mərkəzi",
+            "location": "Qaradağ / Azərbaycan",
+            "client": "“Azerbaijan Supermarket” MMC",
+            "scope": "Paylama mərkəzi açar təslimi müqavilə əsasında tamamlanmışdır. Mərkəz ümumi sahəsi 17,000  ㎡ olmaqla 34,512 ədəd palet tutumlu əraziyə malikdir. Layihənin 2-ci fazasında mərkəzin sahəsi 14,690  ㎡ artırılmışdır."
+        },
+        "22": {
+            "name": "Bravo Koroğlu Hipermarket",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Azerbaijan Supermarket” MMC",
+            "scope": "30,737 ㎡ həcmində dəmir-beton konstruksiya və fasad işləri, həmçinin mexanik, elektrik işləri tamamlanmışdır. Market ərazisi 8,869 ㎡,  idarəetmə binası 13,566 ㎡, daxili parkinq ərazisi 4,151 ㎡, landşaft ərazisi  15,250 ㎡ təşkil edir."
+        },
+        "23": {
+            "name": "Port Baku Şimal Qülləsi",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "46,600 ㎡ ümumi sahəsi və 31 mərtəbəli ofis sahəsindən ibarət olan biznes mərkəzinin bünövrə və dəmir-beton  işləri tamamlanmışdır.  "
+        },
+        "24": {
+            "name": "Sumqayıt Tütün Fabriki",
+            "location": "Sumqayıt / Azərbaycan",
+            "client": "“Tabaterra” QSC",
+            "scope": "Ümumi tikinti sahəsi 71,000 ㎡ olan fabrikin tikintisi açar təslimi müqavilə əsasında tərəfimizdən tamamlanmışdır."
+        },
+        "25": {
+            "name": "One & Only Hotel Portonovi",
+            "location": "Portonovi / Montonegro",
+            "client": "“Azmont Investment” MMC",
+            "scope": "140 otaqlı 5 uzduzlu One & Only Portonovi (Monteneqro) otelində təmir-tamamlama və mebel təchizatı işləri tamamlanmışdır."
+        },
+        "26": {
+            "name": "Hotel Baku Marriott Boulevard",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "818 otaqdan ibarət olan otelin təmir-tamamlama və mebel işləri icra edilmişdir."
+        },
+        "27": {
+            "name": "Courtyard by Marriot Hotel",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Layihə çərçivəsində  otelin  daxili təmir-tamamlama və mebel işləri icra edilmişdir."
+        },
+        "28": {
+            "name": "Intourist Hotel",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "80 illik memarlıq irsini əks etdirən və 150 geniş və lüks otaqlardan ibarət olan otelin təmir-tamamlama və mebel təchizatı işləri tamamlanmışdır."
+        },
+        "29": {
+            "name": "Pik Palace Şahdağ Hotel",
+            "location": "Qusar / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "167 geniş və lüks otaqlardan ibarət olan otelin təmir-tamamlama işləri icra edilmişdir."
+        },
+        "30": {
+            "name": "Bravo 20 Yanvar Hipermarket",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Azerbaijan Supermarket” MMC",
+            "scope": "20,313 ㎡ həcmində dəmir-beton konstruksiya və fasad işləri, həmçinin mexanik, elektrik işləri tamamlanmışdır. Market ərazisi 13,772  ㎡,  daxili parking ərazisi 6,441  ㎡, landşaft ərazisi  5,850 ㎡ təşkil edir."
+        },
+        "31": {
+            "name": "Gənclik Mall Ticarət Mərkəzi",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Ümumi yerləşmə sahəsi 50,000 ㎡ olan ticarət mərkəzinin təmir-tamamlama və mebel təchizatı işləri tamamlanmışdır"
+        },
+        "32": {
+            "name": "Hacıqabul Təsərrüfat bazası",
+            "location": "Hacıqabul / Azərbaycan",
+            "client": "“Agro Dairy” MMC",
+            "scope": "Dəmir-beton və bünövrə işləri, mexanik, elektrik işləri, inzibati bina, anbar, gübrə binası, yanacaqdoldurma məntəqəsi və yataqxana binasının tikintisi, bütün landşaft, abadlıq və təmir-tamamlama işləri görülmüşdür."
+        },
+        "33": {
+            "name": "28 Mall Ticarət Mərkəzi",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Təmir-tamamlama, mebel təchizatı işləri icra edilmişdir."
+        },
+        "34": {
+            "name": "R-Pharm dərman fabriki",
+            "location": "Bakı / Azərbaycan",
+            "client": "“R-Pharm” MMC",
+            "scope": "Ümumi landşaft ərazisi 20,000 ㎡, yerləşmə sahəsi 4,400 ㎡ olan fabrikin tikintisi açar təslimi müqaviləsi əsasında tamamlanmışdır."
+        },
+        "35": {
+            "name": "Amburan Ticarət Mərkəzi",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Ticarət mərkəzinin tikintisində dəmir-beton və təmir-tamamlama işləri icra edilmişdir."
+        },
+        "36": {
+            "name": "Tovuz rayonunun Ceyrançöl ərazisində suvarma sisteminin tikintisi layihəsi",
+            "location": "Tovuz / Azərbaycan",
+            "client": "“Agro Dairy” MMC",
+            "scope": "Tovuz rayonunun Ceyrançöl ərazisində əkin sahələrinin suvarılması məqsədilə uzunluğu 31.1 km (DN800-DN1700) olan polad boru xətti və 122.1 km (DN200-DN500) olan polietilen boru (HDPE) xətti çəkilərək tamamlanmışdır. Ümumilikdə 105 ədəd mərkəzi pivot sulama sistemi qurulmuşdur.  Layihə çərçivəsində sahədaxili yolların da tikintisi tərəfimizdən icra olunmuşdur."
+        },
+        "37": {
+            "name": "Şahdağ Hotel, Villa və Yaşayış sahəsi",
+            "location": "Qusar / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Layihə çərçivəsində təmir- tamamlama işləri icra edilmişdir."
+        },
+        "38": {
+            "name": "Dinamo Hotel",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Layihə çərçivəsində mexanik, elektrik işləri tamamlanmışdır."
+        },
+        "39": {
+            "name": "Aquatic Center Parkland",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Layihə açar təslimi müqaviləsi əsasında şirkətimiz tərəfindən icra edilmişdir."
+        },
+        "40": {
+            "name": "Qax şəhərinin su təchizatı və kanalizasiya sisteminin yenidən qurulması",
+            "location": "Qax / Azərbaycan",
+            "client": "“Azərsu” ASC",
+            "scope": "Tullantı sularının təmizlənməsi üçün gücü 2000 m3/gün olan qurğunun tikintisi tamamlanmışdır. Bioloji təmizlənmiş çirkab su təbiətə buraxılmazdan əvvəl UV- dezinfeksiya qurğusundan keçirilərək zərərsizləşdirilir."
+        },
+        "41": {
+            "name": "Tovuz Yol Tikintisi",
+            "location": "Tovuz / Azərbaycan",
+            "client": "“Agro Dairy” MMC",
+            "scope": ""
+        },
+        "42": {
+            "name": "Volkswagen Bakı Mərkəzi",
+            "location": "Bakı / Azərbaycan",
+            "client": "Volkswagen Bakı",
+            "scope": "3,021 ㎡ sahəsi olan Volkswagen satış mərkəzinin tikintisi açar təslimi müqaviləsi əsasında tamamlanmışdır."
+        },
+        "43": {
+            "name": "Atelier Boutique and Vivanda",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Layihə çərçivəsində təmir-tamamlama, mebel təchizatı işləri icra edilmişdir."
+        },
+        "44": {
+            "name": "Hard Rock Café",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Paşa İnşaat” MMC",
+            "scope": "Layihə çərçivəsində təmir-tamamlama, mebel təchizatı işləri icra edilmişdir."
+        },
+        "45": {
+            "name": "Hacıqabul Nasos Stansiyası",
+            "location": "Hacıqabul / Azərbaycan",
+            "client": "“Agro Dairy” ASC",
+            "scope": "Layihə 4,500 ㎡sahəsi olan nasos stansiya binasının tikintisini əhatə edir."
+        },
+        "46": {
+            "name": "Bravo marketlər şəbəkəsi",
+            "btnName":"Bravo marketlər şəbəkəsi",
+            "location": "Bakı / Azərbaycan",
+            "client": "“Azerbaijan Supermarket” MMC",
+            "scope": "11 ədəd supermarket və 50-dən çox ekpress tipli market tikilib təhvil verilmişdir. Bir hipermarket açar təslimi müqaviləsi əsasında təhvil verilmişdir. İki hipermarketdə isə dəmir-beton konstruksiya və fasad işləri, həmçinin mexanik, elektrik işləri tamamlanmışdır."
+        },
+        "47": {
+            "name": "McDonald's Zənciri",
+            "btnName":"McDonald's Zənciri",
+            "location": "Bakı / Azərbaycan",
+            "client": "McDonald's Azərbaycan",
+            "scope": "Layihə çərçivəsində Gənclik Mall, Əhmədli, Gəncə Mall, 28 Mall, Tarqovi, Sahil, Velotrek, Oazis, Hava limanı, Park Bulvar, Rose Garden, Amburan Mall, Dəniz Mall, Sumqayıt, Park Bulvar, Memar Əcəmi kimi 16 ədəd McDonalds Azərbaycan filiallarında fasad işləri, daxili tamamlama, mexanik, elektrik kimi işlərin də daxil olduğu bütün inşaat işləri icra edilmişdir."
+        },
+        "48": {
+            "name": "Bravo Superstore Şəmkir",
+            "location": "Şəmkir / Azərbaycan",
+            "client": "“Azerbaijan Supermarket” MMC",
+            "scope": "Ümumi tikinti sahəsi 8500 ㎡ olan supermarketin tikintisi açar təslimi müqavilə əsasında tamamlanmışdır."
+        },
+        "49": {
+            "name": "Azərbaycan Respublikasının 38 şəhər və rayonlarında subartezian və artezian quyularınin qazılması",
+            "btnName":"Subartezian və artezian quyularının qazılması",
+            "location": "Azərbaycan",
+            "client": "“Azərbaycan Meliorasiya və Su Təsərrüfatı” ASC",
+            "scope": "Layihə çərçivəsində 177 məntəqədə 185 sayda subartezian və 15 sayda artezian quyularının qazılması işləri icra edilmişdir. Quyuların diametri 168 mm, 219 mm və 273 mm olmaqla, qazılma dərinlikləri 120-350 metr arasında dəyişir."
+        }
+    }
+}
