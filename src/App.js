@@ -988,7 +988,6 @@ const App = () => {
       scope: t("project.47.scope"),
       logo: "./images/projects/Mcdonalds/mc-logo.png",
     },
-    
   ]);
   useEffect(() => {
     setMarkers((prevMarkers) =>
