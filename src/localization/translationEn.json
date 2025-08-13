@@ -324,6 +324,42 @@
             "location": "Azərbaycan",
             "client": "“Azerbaijan Amelioration and Water Farm” OJSC",
             "scope": "Within the framework of the project 185 subartesian and 15 artesian wells were drilled in 177 locations. Diameters of the wells are 168 mm, 219 mm and 273 mm, and drilling depths vary from 120 to 350 meters."
+        },
+        "50": {
+            "name": "Reconstruction works of the Shirvan irrigation canal (1st and 3rd stages)",
+            "location": "Yevlakh, Mingachevir, Goychay, Kurdamir, Hajigabul / Azerbaijan",
+            "client": "Azerbaijan State Water Resources Agency",
+            "scope": "The first stage of the project includes the construction of the 4 km long Upper Shirvan canal, one bridge over the canal, an aqueduct, a pedestrian bridge, a culvert, intake, crossing and outlet facilities, a control building and two weirs. The third stage includes the construction of a 62 km long canal, 16 automobile and 7 pedestrian bridges, 17 weirs, 4 underpasses, 4 evacuation facilities, culverts, as well as the construction of the pumping station, the Goychay HPP intake facility and the Goychay HPP outlet channel, as well as 8 rainwater collection channels."
+        },
+        "501": {
+            "name": "Reconstruction works of the Shirvan irrigation canal (1st and 3rd stages)",
+            "location": "Yevlakh, Mingachevir, Goychay, Kurdamir, Hajigabul / Azerbaijan",
+            "client": "Azerbaijan State Water Resources Agency",
+            "scope": "The first stage of the project includes the construction of the 4 km long Upper Shirvan canal, one bridge over the canal, an aqueduct, a pedestrian bridge, a culvert, intake, crossing and outlet facilities, a control building and two weirs. The third stage includes the construction of a 62 km long canal, 16 automobile and 7 pedestrian bridges, 17 weirs, 4 underpasses, 4 evacuation facilities, culverts, as well as the construction of the pumping station, the Goychay HPP intake facility and the Goychay HPP outlet channel, as well as 8 rainwater collection channels."
+        },
+        "502": {
+            "name": "Reconstruction works of the Shirvan irrigation canal (1st and 3rd stages)",
+            "location": "Yevlakh, Mingachevir, Goychay, Kurdamir, Hajigabul / Azerbaijan",
+            "client": "Azerbaijan State Water Resources Agency",
+            "scope": "The first stage of the project includes the construction of the 4 km long Upper Shirvan canal, one bridge over the canal, an aqueduct, a pedestrian bridge, a culvert, intake, crossing and outlet facilities, a control building and two weirs. The third stage includes the construction of a 62 km long canal, 16 automobile and 7 pedestrian bridges, 17 weirs, 4 underpasses, 4 evacuation facilities, culverts, as well as the construction of the pumping station, the Goychay HPP intake facility and the Goychay HPP outlet channel, as well as 8 rainwater collection channels."
+        },
+        "51": {
+            "name": "Installation of water supply, sewerage and rainwater systems in the city of Aghdam",
+            "location": "Aghdam city",
+            "client": "Azerbaijan State Water Resources Agency",
+            "scope": "The project includes the construction of two reservoirs with a capacity of 10,000 m³ and 7,500 m³ and the valve chambers on them. In addition, a 22,800-meter-long main metal water pipeline with a diameter of DN 630x8 mm is being installed, and construction of 24 artesian wells are being carried out. It is planned to build a pumping station with a capacity of 400 m³ per hour, two water reservoirs with a volume of 500 m³ and an electrolysis facility. Also, construction of DN 710 mm main external water supply and 6,500-meter-long polyethylene water pipes is ongoing."
+        },
+        "52": {
+            "name": "Construction of the Main Sewer Collector and Wastewater Treatment Plant for the Müşviqabad Basin",
+            "location": "Baku, Azerbaijan",
+            "client": "Azerbaijan State Water Resources Agency",
+            "scope": "It is planned to construct 11 launching shafts with an internal diameter of 11 meters and 11 receiving shafts with an internal diameter of 8 meters for the installation of pipes using the pipe jacking method as part of the microtunneling process. The pipes will have an internal diameter of 2400 mm and an external diameter of 3000 mm, and will be manufactured by our company. The shaft depths will range from 7 meters to 60 meters. The works will be carried out using a Herrenknecht 2500 microtunneling machine with an EPB (Earth Pressure Balance) system. The total tunnel length with an internal diameter of 2400 mm is 12,709 meters."
+        },
+        "53": {
+            "name": "Construction of the Dərnəgül–Bakıxanov–Qaraçuxur–Hövsan Sewer Collector",
+            "location": "Baku, Azerbaijan",
+            "client": "Azerbaijan State Water Resources Agency",
+            "scope": "The project involves the construction of 8 launching shafts with an internal diameter of 11 meters and 8 receiving shafts with an internal diameter of 8 meters for the installation of pipes via the pipe jacking method as part of the microtunneling process. The pipes, with internal diameters of 2400 mm and 2000 mm, will be manufactured by our company. The shaft depths will range from 25 to 65 meters. The total length of pipeline installed using 2400 mm internal diameter pipes will be 4,470 meters, while the section using 2000 mm pipes will extend 5,150 meters. Additionally, a 560-meter section of 2400 mm internal diameter pipe will be installed using the open trench method."
         }
     }
 }
