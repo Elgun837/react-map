@@ -8,7 +8,7 @@ import Modal from "./Modal";
 import ButtonModal from "./ButtonModal";
 import { useTranslation } from "react-i18next";
 import i18n from "./i18n";
-
+import ScreenSize from "./ScreenSize";
 const App = () => {
   const { t, i18n } = useTranslation();
   const [activeLanguage, setActiveLanguage] = useState(
@@ -1221,6 +1221,9 @@ const App = () => {
 
   return (
     <>
+      <div>
+      <ScreenSize /> 
+    </div>
       <div className="language_change">
         <button data-language="en" onClick={() => changeLanguage("en")}>
           EN
