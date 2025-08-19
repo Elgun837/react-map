@@ -1223,7 +1223,7 @@ const App = () => {
     <>
       <div>
       <ScreenSize /> 
-    </div>
+      </div>
       <div className="language_change">
         <button data-language="en" onClick={() => changeLanguage("en")}>
           EN
@@ -1268,7 +1268,7 @@ const App = () => {
                     icon={{
                       url: "./Vector.svg",
                       scaledSize: new window.google.maps.Size(
-                        window.innerWidth < 2000 ? 40 : 124, // Set the desired height
+                        window.innerHeight < 2000 ? 40 : 124, // Set the desired height
                         window.innerWidth < 2000 ? 40 : 124 // Set the desired width
                       ),
                     }}
