@@ -1012,10 +1012,7 @@ const App = () => {
       locate: t("project.52.location"),
       customer: t("project.52.client"),
       images: [
-        // "./images/projects/shamkir/1.jpg",
-        // "./images/projects/shamkir/2.jpg",
-        // "./images/projects/shamkir/3.jpg",
-        // "./images/projects/shamkir/4.jpg",
+        "./images/projects/no_photo/nw.webp",
       ],
       year: "2025-2027",
       class: "aze",
@@ -1028,10 +1025,7 @@ const App = () => {
       locate: t("project.53.location"),
       customer: t("project.53.client"),
       images: [
-        // "./images/projects/shamkir/1.jpg",
-        // "./images/projects/shamkir/2.jpg",
-        // "./images/projects/shamkir/3.jpg",
-        // "./images/projects/shamkir/4.jpg",
+        "./images/projects/no_photo/nw.webp",
       ],
       year: "2025-2027",
       class: "aze",
@@ -1076,7 +1070,7 @@ const App = () => {
       year: "2017-2022",
       class: "aze",
       scope: t("project.46.scope"),
-      logo: "./images/projects/Bravosuper/bravo-logo.png",
+      logo: "./images/projects/bravosuper/bravo-logo.png",
     },
     {
       id: 47,
@@ -1109,7 +1103,7 @@ const App = () => {
           : "2011-indiyədək",
       class: "aze",
       scope: t("project.47.scope"),
-      logo: "./images/projects/Mcdonalds/mc-logo.png",
+      logo: "./images/projects/mcdonalds/mc-logo.png",
     },
   ]);
   useEffect(() => {
@@ -1221,9 +1215,9 @@ const App = () => {
 
   return (
     <>
-      <div>
+      {/* <div>
       <ScreenSize /> 
-      </div>
+      </div> */}
       <div className="language_change">
         <button data-language="en" onClick={() => changeLanguage("en")}>
           EN
@@ -1237,7 +1231,7 @@ const App = () => {
       </div>
       <img
         className="logo_absolute"
-        src={process.env.PUBLIC_URL + "/images/logo.svg"}
+        src={process.env.PUBLIC_URL + "/images/logo.webp"}
         alt="Logo"
       />
 
